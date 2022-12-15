@@ -21,7 +21,7 @@ function App() {
         <div className='burger-btn' onClick={() => setMenuActive(!menuActive)}>
           <span/>
         </div>
-        <h2 className='nav__header'>Pavel Alekseev</h2>
+        <h2 className='nav__header'>Eng</h2>
       </nav>
       <main>
         <Promo />
