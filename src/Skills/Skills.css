@@ -30,9 +30,19 @@
   max-width: 270px;
   max-height: 270px;
   justify-items: center;
+  border: 1px solid;
 }
 
-@media screen and (min-width: 320px) and (max-width: 900px){
+.skills__content-text {
+  text-align: justify;
+  text-indent: 8px;
+}
+
+.skills__content-image{
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 650px){
   .skills {
     margin: 40px 40px 60px 40px;
     max-width: 100vw;
@@ -50,4 +60,25 @@
       row-gap: 20px;
       margin-top: 50px;
     }
+}
+
+@media screen and (min-width: 650px) and (max-width: 950px){
+
+  .skills__box {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px){
+
+    .skills__box {
+      grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media screen and (min-width: 1600px){
+
+  .skills__box {
+    grid-template-columns: auto auto auto auto auto;
+  }
 }

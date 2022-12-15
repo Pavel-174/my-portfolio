@@ -32,6 +32,8 @@
 .about__paragraph {
     margin: 0;
     padding: 0;
+    text-indent: 10px;
+    text-align: justify;
 }
 
 .about__list {
@@ -42,7 +44,7 @@
 .about__list-items {
     list-style-type: none;
     padding-left: 2rem;
-    background-image: url(https://ru.wikifur.com/w/images/thumb/8/8f/Checkmark.svg/600px-Checkmark.svg.png);
+    background-image: url(https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Checkmark.png?raw=true);
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position: left;
