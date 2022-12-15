@@ -3,6 +3,7 @@ import About from './About/About';
 import './App.css';
 import Menu from './Menu/Menu';
 import Promo from './Promo/Promo';
+import Experience from './Experience/Experience'
 import Skills from './Skills/Skills';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <main>
         <Promo />
         <About />
+        <Experience />
         <Skills />
       </main>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
