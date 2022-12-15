@@ -1,0 +1,32 @@
+import React from "react";
+import "./About.css";
+
+function About() {
+    return (
+      <div className='about'>
+        <div className="about__headers">
+            <h3 className="about__header3">Про меня</h3>
+            <h2 className="about__header2">Меня зовут Павел Алексеев</h2>
+        </div>
+        <img src="https://avatars.githubusercontent.com/u/103818677?v=4" alt="на фото Павел Алексеев"></img>
+        <div className="about__texts">
+            <p className="about__paragraph">
+                Я frontend-разработчик. 
+                Мне нравится решать сложные задачи: разрабатывать сайты и веб-приложения. 
+                Меня захватывает процесс разработки и возможность создавать удобные и полезные продукты. 
+                Посмотрите мои работы в разделе <button>Портфолио</button>. Я открыт к предложениям на позицию frontend-разработчика, 
+                где могу внести свой вклад и развиваться вместе с компанией. 
+                Если у вас есть вакансия, которая соответствует моим навыкам и опыту, не стесняйтесь связаться со мной, буду рад сотрудничеству.
+            </p>
+            <ul>Умею:
+                <li>Писать код на HTML, CSS и JavaScript в парадигме ООП;</li>
+                <li>Создавать адаптивные интерфейсы для разных устройств;</li>
+                <li>Разрабатывать сайты и веб-приложения наReact;</li>
+            </ul>
+        </div>
+        
+      </div>   
+    );
+  }
+  
+  export default About;
