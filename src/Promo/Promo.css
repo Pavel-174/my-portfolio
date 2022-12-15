@@ -2,7 +2,7 @@
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
-    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgb(1, 99, 25) 98%);
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -80,7 +80,7 @@
 }
 
 .promo__header {
-    color: #fff;
+    color: rgb(1, 1, 1);
     font-size: 56px;
     font-weight: 700;
     text-align: center;
@@ -89,7 +89,7 @@
 }
 
 .promo__subtitle {
-    color: #fff;
+    color: rgb(1, 1, 1);
     font-size: 40px;
     font-weight: 600;
     text-align: center;
@@ -97,7 +97,7 @@
 
 
 .promo__mouse {
-    border: 2px solid #ffffff;
+    border: 2px solid rgb(1, 1, 1);
     border-radius: 13px;
     bottom: 40px;
     display: block;
@@ -112,7 +112,7 @@
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-name: scroll;
-    background: none repeat scroll 0 0 #ffffff;
+    background: none repeat scroll 0 0 rgb(1, 1, 1);
     border: 1px solid transparent;
     border-radius: 4px;
     display: block;

@@ -28,7 +28,7 @@ function App() {
         <About />
         <Skills />
       </main>
-      <Menu active={menuActive} setActive={setMenuActive} header={"Бургер меню"} items={items}/>
+      <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
     </div>   
   );
 }

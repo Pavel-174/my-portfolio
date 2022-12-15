@@ -34,6 +34,21 @@
     padding: 0;
 }
 
+.about__list {
+    margin-top: 20px;
+    font-size: large;
+}
+
+.about__list-items {
+    list-style-type: none;
+    padding-left: 2rem;
+    background-image: url(https://ru.wikifur.com/w/images/thumb/8/8f/Checkmark.svg/600px-Checkmark.svg.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: left;
+    line-height: 2;
+}
+
 @media screen and (min-width: 320px) and (max-width: 900px){
     .about {
         grid-template-columns: auto;
@@ -56,5 +71,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .about__list {
+        font-size: 11px;
+        padding-bottom: 6px;
+    }
+
+    .about__list-items {
+        padding-left: 2rem;
+        background-size: 20px 20px;
     }
 }

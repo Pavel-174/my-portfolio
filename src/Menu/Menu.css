@@ -39,18 +39,18 @@
   text-align: center;
 }
 
-ul li a {
+.menu__list-link {
   color: white;
   text-decoration: none;
   font-size: 1.3rem;
 }
 
-ul li {
+.menu__list-item {
   display: flex;
   align-items: center;
 }
 
-ul {
+.menu__list {
   text-align: center;
   display: flex;
   flex-direction: column;
