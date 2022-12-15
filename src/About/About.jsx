@@ -18,12 +18,14 @@ function About() {
                 где могу внести свой вклад и развиваться вместе с компанией. 
                 Если у вас есть вакансия, которая соответствует моим навыкам и опыту, не стесняйтесь связаться со мной, буду рад сотрудничеству.
             </p>
+            <div className="about__list-box">
+            <h4 className="about__list-header">Умею:</h4>
             <ul className="about__list">
-                Умею:
                 <li className="about__list-items">Писать код на HTML, CSS и JavaScript в парадигме ООП;</li>
                 <li className="about__list-items">Создавать адаптивные интерфейсы для разных устройств;</li>
                 <li className="about__list-items">Разрабатывать сайты и веб-приложения наReact;</li>
             </ul>
+            </div>
         </div>
         
       </div>   

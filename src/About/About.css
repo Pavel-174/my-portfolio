@@ -21,12 +21,14 @@
   padding: 0;
   font-size: 25px;
   margin-top: 10px;
+  font-family: cursive;
 }
 
 .about__header3 {
     margin: 0;
     padding: 0;
     font-size: 20px;
+    font-family: cursive;
   }
 
 .about__paragraph {
@@ -37,8 +39,15 @@
 }
 
 .about__list {
-    margin-top: 20px;
     font-size: large;
+}
+
+.about__list-box {
+    margin-top: 20px;
+}
+
+.about__list-header {
+    margin-bottom: 5px;
 }
 
 .about__list-items {
@@ -55,13 +64,16 @@
     .about {
         grid-template-columns: auto;
         grid-template-rows: auto;
+        margin-top: 50px;
     }
 
     .about img {
         grid-row-start: 1;
         grid-row-end: 1;
         grid-column-start: 1;
-        padding: 0 20px;
+        padding: 0;
+        margin: 0 auto;
+
     }
 
     .about__texts{
