@@ -30,6 +30,10 @@ function Skills() {
             <img className="skills__content-image" src="https://raw.githubusercontent.com/Pavel-174/my-portfolio/b3012064a264f01c469ab9a59da78cbb9db87866/src/images/Node.js.svg" alt="логотип Node.js"></img>
             <p className="skills__content-text">Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</p>
           </div>
+          <div className="skills__content">
+            <img className="skills__content-image" src="https://raw.githubusercontent.com/Pavel-174/my-portfolio/b3012064a264f01c469ab9a59da78cbb9db87866/src/images/Node.js.svg" alt="логотип Node.js"></img>
+            <p className="skills__content-text">Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
+          </div>
         </div>
       </div>   
     );
