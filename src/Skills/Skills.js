@@ -31,7 +31,7 @@ function Skills() {
             <p className="skills__content-text">Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</p>
           </div>
           <div className="skills__content">
-            <img className="skills__content-image" src="https://raw.githubusercontent.com/Pavel-174/my-portfolio/b3012064a264f01c469ab9a59da78cbb9db87866/src/images/Node.js.svg" alt="логотип Node.js"></img>
+            <img className="skills__content-image" src="https://raw.githubusercontent.com/Pavel-174/my-portfolio/5a946e32e2eb0926f2b6a3fb39c4c4ccdedc7652/src/images/Mongo.db.svg" alt="логотип Mongo.db"></img>
             <p className="skills__content-text">Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
           </div>
         </div>

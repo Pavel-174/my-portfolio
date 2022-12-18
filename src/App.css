@@ -12,7 +12,7 @@ main{
 nav{
   height: 50px;
   width: 100%;
-  background-color: white;
+  background-color: #fecd00;
   position: fixed;
   z-index: 50;
   display: flex;

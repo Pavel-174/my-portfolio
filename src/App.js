@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import About from './About/About';
 import './App.css';
 import Menu from './Menu/Menu';
@@ -32,7 +31,7 @@ function App() {
         <Skills />
       </main>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
-    </div>   
+    </div>
   );
 }
 
