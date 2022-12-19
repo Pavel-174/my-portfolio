@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter } from "react-router-dom";
 import About from './About/About';
 import './App.css';
@@ -11,6 +11,23 @@ function App() {
 
   const [menuActive, setMenuActive] = useState(false);
 
+  useEffect(() => {
+    if (menuActive) {
+      function handleEsc(evt) {
+        if (evt.key === 'Escape') {
+          setMenuActive(false);
+        }
+      }
+
+      document.addEventListener('keydown', handleEsc);
+
+      return () => {
+        document.removeEventListener('keydown', handleEsc);
+      }
+    }
+  }, [menuActive]);
+
+  
   const items = [
     {id: '1', value:'Главная', href:'promo'}, 
     {id: '2', value:'Про меня', href:'about'},

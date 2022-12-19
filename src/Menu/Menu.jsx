@@ -14,9 +14,12 @@ const Menu = ({header, items, active, setActive}) => {
                         <li className="menu__list-item" key={item.id}>
                           <Link className="menu__list-link"
                           smooth={true}
-                          offset={0}
+                          offset={-30}
                           duration={500}
-                          to={item.href}>{item.value}</Link>
+                          to={item.href}
+                          >
+                            {item.value}
+                          </Link>
                         </li>
                     )}
                 </ul>
