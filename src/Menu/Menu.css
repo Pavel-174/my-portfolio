@@ -76,5 +76,7 @@
 
   .blur {
     backdrop-filter: none;
+    width: 0;
+    height: 0;
   }    
 }
