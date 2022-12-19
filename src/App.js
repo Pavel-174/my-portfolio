@@ -12,10 +12,10 @@ function App() {
   const [menuActive, setMenuActive] = useState(false);
 
   const items = [
-    {id: '1', value:'Главная', href: '#promo', icon: "anchor"}, 
-    {id: '2', value:'Про меня', href: '#about', icon: "anchor"},
-    {id: '3', value:'Опыт', href: '#experience', icon: "anchor"},
-    {id: '4', value:'Навыки', href: '#skills', icon: "anchor"}
+    {id: '1', value:'Главная', href:'promo'}, 
+    {id: '2', value:'Про меня', href:'about'},
+    {id: '3', value:'Опыт', href:'experience'},
+    {id: '4', value:'Навыки', href:'skills'}
   ]
   
   return (
@@ -28,10 +28,10 @@ function App() {
         <h2 className='nav__header'>Eng</h2>
       </nav>
       <main>
-        <Promo />
-        <About />
-        <Experience />
-        <Skills />
+        <Promo id="promo"/>
+        <About id='about'/>
+        <Experience id='experience'/>
+        <Skills id='skills'/>
       </main>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
       </BrowserRouter>

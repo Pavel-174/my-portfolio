@@ -54,14 +54,13 @@
 }
 
 .menu__list-item {
-  display: flex;
-  align-items: center;
+  
 }
 
 .menu__list {
-  text-align: center;
   display: flex;
   flex-direction: column;
+  list-style-type: none;
 }
 
 .material-icons {

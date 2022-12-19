@@ -4,7 +4,7 @@ import "./Experience.css"
 function Experience() {
 
     return (
-      <div className='experience' id='experience'>
+      <div className='experience'>
         <div className="experience__headers">
           <h3 className="experience__header3">Опыт</h3>
           <h2 className="experience__header2">Чем я буду полезен</h2>

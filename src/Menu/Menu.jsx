@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import './Menu.css';
 
 const Menu = ({header, items, active, setActive}) => {
@@ -11,8 +12,11 @@ const Menu = ({header, items, active, setActive}) => {
                 <ul className="menu__list">
                     {items.map(item =>
                         <li className="menu__list-item" key={item.id}>
-                          <a className="menu__list-link" href={item.href}>{item.value}</a>
-                          <span className="material-icons">{item.icon}</span>
+                          <Link className="menu__list-link"
+                          smooth={true}
+                          offset={0}
+                          duration={500}
+                          to={item.href}>{item.value}</Link>
                         </li>
                     )}
                 </ul>
