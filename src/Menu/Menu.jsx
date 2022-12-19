@@ -15,8 +15,9 @@ const Menu = ({header, items, active, setActive}) => {
                           <Link className="menu__list-link"
                           smooth={true}
                           offset={-30}
-                          duration={500}
+                          duration={800}
                           to={item.href}
+                          onClick={() => setActive(false)}
                           >
                             {item.value}
                           </Link>
