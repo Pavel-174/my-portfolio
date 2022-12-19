@@ -1,6 +1,7 @@
 .experience {
-    margin: 100px 40px 60px 40px;
+    margin: 0px 40px 40px 40px;
     max-width: 100vw;
+    padding-top: 70px;
   }
 
 .experience__content {
@@ -36,3 +37,24 @@
     background-image: linear-gradient(135deg, wheat 0,#fecd00 100%);
   }
   
+  @media screen and (min-width: 320px) and (max-width: 900px){
+
+    .experience__headers{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience__header3{
+      padding-left: 0;
+    }
+
+    .experience__header3::before{
+      left: -80%;
+    }
+
+    .experience__header2 {
+      text-align: center;
+  }
+  }
