@@ -6,6 +6,7 @@ import Menu from './Menu/Menu';
 import Promo from './Promo/Promo';
 import Experience from './Experience/Experience'
 import Skills from './Skills/Skills';
+import Portfolio from './Portfolio/Portfolio';
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
         <About id='about'/>
         <Experience id='experience'/>
         <Skills id='skills'/>
+        <Portfolio id='portfolio' />
       </main>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
       </BrowserRouter>

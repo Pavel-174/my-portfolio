@@ -53,6 +53,12 @@
     text-align: justify;
 }
 
+.about__link {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration-line: underline;
+}
+
 .about__list {
     font-size: large;
 }
