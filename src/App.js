@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BrowserRouter } from "react-router-dom";
 import About from './About/About';
 import './App.css';
 import Menu from './Menu/Menu';
@@ -11,13 +12,15 @@ function App() {
   const [menuActive, setMenuActive] = useState(false);
 
   const items = [
-    {id: '1', value:'Главная', href: '/main', icon: "anchor"}, 
-    {id: '2', value:'Про меня', href: '/main/about', icon: "anchor"}, 
-    {id: '3', value:'Навыки', href: '/main/skills', icon: "anchor"}
+    {id: '1', value:'Главная', href: '#promo', icon: "anchor"}, 
+    {id: '2', value:'Про меня', href: '#about', icon: "anchor"},
+    {id: '3', value:'Опыт', href: '#experience', icon: "anchor"},
+    {id: '4', value:'Навыки', href: '#skills', icon: "anchor"}
   ]
   
   return (
     <div className='app'>
+      <BrowserRouter>
       <nav>
         <div className='burger-btn' onClick={() => setMenuActive(!menuActive)}>
           <span/>
@@ -31,6 +34,7 @@ function App() {
         <Skills />
       </main>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
+      </BrowserRouter>
     </div>
   );
 }

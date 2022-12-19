@@ -3,7 +3,7 @@ import './Promo.css';
 
 const Promo = () => {
     return (
-        <div className="promo">
+        <div className="promo" id='promo'>
           <div>
             <div className="wave"></div>
             <div className="wave"></div>

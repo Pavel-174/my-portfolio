@@ -18,8 +18,21 @@
     
   .experience__header3 {
     margin: 0;
-    padding: 0;
+    padding-left: 50px;
     font-size: 20px;
     font-family: cursive;
+    position: relative;
+  }
+
+  .experience__header3:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -10%;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-image: linear-gradient(135deg, wheat 0,#fecd00 100%);
   }
   

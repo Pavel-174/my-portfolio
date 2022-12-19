@@ -2,6 +2,7 @@ import React from "react";
 import './Menu.css';
 
 const Menu = ({header, items, active, setActive}) => {
+
     return (
         <div className={active ? 'menu active' : 'menu'} onClick={() => setActive(false)} >
             <div className="blur"/>
