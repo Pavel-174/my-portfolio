@@ -11,8 +11,8 @@ function Project(props) {
         <img className="portfolio__img" src={props.src} alt={props.title}></img>
         <div className="portfolio__link">
           <h5>{props.title}</h5>
-          <a href={props.site}><img src="..\images\globe.svg"></img></a>
-          <a href={props.git}><img src="..\images\github.svg"></img></a>
+          <a href={props.site}><img src="https://raw.githubusercontent.com/Pavel-174/my-portfolio/ebfda2bae11af2cfdc4f3d93360cf65cc0121304/src/images/globe.svg"></img></a>
+          <a href={props.git}><img src="https://raw.githubusercontent.com/Pavel-174/my-portfolio/ebfda2bae11af2cfdc4f3d93360cf65cc0121304/src/images/github.svg"></img></a>
         </div>
         <p>{props.text}</p>
       </li>
