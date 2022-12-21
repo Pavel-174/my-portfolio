@@ -39,16 +39,16 @@ p{
   bottom: 0px;
   width: 20px;
   background-color: black;
-  height: 2px;
+  height: 3px;
 }
 
 .burger-btn span{
   content: ' ';
   position: absolute;
-  top: 9px;
+  top: 8px;
   width: 20px;
   background-color: black;
-  height: 2px;
+  height: 3px;
 }
 
 .burger-btn::before{
@@ -57,7 +57,7 @@ p{
   top: 0px;
   width: 20px;
   background-color: black;
-  height: 2px;
+  height: 3px;
 }
 
 .nav__header {

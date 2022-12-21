@@ -22,14 +22,14 @@
   padding: 0;
   font-size: 25px;
   margin-top: 10px;
-  font-family: cursive;
+  font-family: Monaco, monospace;
 }
 
 .about__header3 {
     margin: 0;
     padding-left: 50px;
     font-size: 20px;
-    font-family: cursive;
+    font-family: Monaco, monospace;
     position: relative;
   }
 

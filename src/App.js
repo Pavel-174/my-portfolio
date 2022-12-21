@@ -33,7 +33,8 @@ function App() {
     {id: '1', value:'Главная', href:'promo'}, 
     {id: '2', value:'Про меня', href:'about'},
     {id: '3', value:'Опыт', href:'experience'},
-    {id: '4', value:'Навыки', href:'skills'}
+    {id: '4', value:'Навыки', href:'skills'},
+    {id: '5', value:'Портфолио', href:'portfolio'}
   ]
   
   return (

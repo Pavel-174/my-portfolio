@@ -17,11 +17,11 @@
   height: 100vh;
   backdrop-filter: blur(2px);
   position: absolute;
-  left: 30%;
+  left: 25%;
 }
 
 .menu__content {
-  width: 30%;
+  width: 25%;
   height: 100%;
   background-color: #0bd5e3;
   display: flex;

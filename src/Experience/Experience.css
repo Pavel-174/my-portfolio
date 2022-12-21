@@ -1,60 +1,106 @@
 .experience {
-    margin: 0px 40px 40px 40px;
-    max-width: 100vw;
-    padding-top: 70px;
-  }
+  margin: 0px 40px 40px 40px;
+  max-width: 100vw;
+  padding-top: 70px;
+}
 
 .experience__content {
-    display: grid;
-    grid-template-columns: auto auto;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .experience__header2 {
-    margin: 0;
-    padding: 0;
-    font-size: 25px;
-    margin-top: 10px;
-    font-family: cursive;
-  }
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  margin-top: 10px;
+  font-family: Monaco, monospace;
+}
     
-  .experience__header3 {
-    margin: 0;
-    padding-left: 50px;
-    font-size: 20px;
-    font-family: cursive;
-    position: relative;
+.experience__header3 {
+  margin: 0;
+  padding-left: 50px;
+  font-size: 20px;
+  font-family: Monaco, monospace;
+  position: relative;
+}
+
+.experience__header3:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -10%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background-image: linear-gradient(135deg, wheat 0,#fecd00 100%);
+}
+
+.experience__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 40px;
+  grid-column-gap: 25px;
+}
+
+.experience__header4 {
+  padding-bottom: 40px;
+}
+
+.experience__item {
+  list-style-type: none;
+  padding-left: 2rem;
+  background-image: url(https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Checkmark.png?raw=true);
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  line-height: 2;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.experience__item:last-child {
+  padding-bottom: 0;
+}
+
+.experience__item-text {
+  margin: 0;
+  padding-top: 15px;
+}
+  
+@media screen and (min-width: 320px) and (max-width: 900px){
+
+  .experience__headers{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .experience__header3:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -10%;
-    left: 0;
-    width: 36px;
-    height: 36px;
-    border-radius: 100%;
-    background-image: linear-gradient(135deg, wheat 0,#fecd00 100%);
+  .experience__header3{
+    padding-left: 0;
+  }
+
+  .experience__header3::before{
+    left: -93%;
+  }
+
+  .experience__header2 {
+    text-align: center;
+  }
+
+  .experience__content {
+    flex-direction: column;
   }
   
-  @media screen and (min-width: 320px) and (max-width: 900px){
-
-    .experience__headers{
-        padding: 0 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .experience__header3{
-      padding-left: 0;
-    }
-
-    .experience__header3::before{
-      left: -80%;
-    }
-
-    .experience__header2 {
-      text-align: center;
+  .experience__work {
+    padding-top: 60px;
   }
+
+  .experience__header4 {
+    padding-bottom: 25px;
   }
+}

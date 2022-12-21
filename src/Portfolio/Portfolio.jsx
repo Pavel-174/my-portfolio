@@ -5,8 +5,8 @@ function Portfolio() {
     return (
       <div className='portfolio'>
         <div className="portfolio__heaportfolioers">
-            <h3 className="portfolio__header3">Про меня</h3>
-            <h2 className="portfolio__header2">Меня зовут Павел Алексеев</h2>
+            <h3 className="portfolio__header3">Портфолио</h3>
+            <h2 className="portfolio__header2">Мои работы</h2>
         </div>
       </div>   
     );
