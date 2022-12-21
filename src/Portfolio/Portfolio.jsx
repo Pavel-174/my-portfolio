@@ -1,20 +1,24 @@
 import React from "react";
-import './Portfolio.css'
+import './Portfolio.css';
+import Project from '../Project/Project';
 
-function Portfolio({projects}) {
+function Portfolio(props) {
     return (
       <div className='portfolio'>
         <div className="portfolio__heaportfolioers">
             <h3 className="portfolio__header3">Портфолио</h3>
             <h2 className="portfolio__header2">Мои работы</h2>
         </div>
-        <ul>
-        {projects.map(project =>
-          <li key={project.id}>
-            <img src={project.src}></img>
-            <h5>{project.title}</h5>
-            <p>{project.text}</p>
-          </li>
+        <ul className="portfolio__items">
+        {props.projects.map(project =>
+          <Project
+          id={project.id}
+          project={project}
+          src={project.src}
+          title={project.title}
+          text={project.text}
+          onCardClick={props.onCardClick}
+          />
         )}
         </ul>
       </div>   

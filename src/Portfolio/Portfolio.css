@@ -36,3 +36,20 @@
     border-radius: 100%;
     background-image: linear-gradient(135deg, wheat 0,#fecd00 100%);
   }
+
+  .portfolio__items {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    padding-top: 40px;
+  }
+
+  .portfolio__item {
+    cursor: pointer;
+  }
+
+  .portfolio__img {
+    max-width: 300px;
+    max-height: 202px;
+  }

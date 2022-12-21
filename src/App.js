@@ -4,19 +4,27 @@ import About from './About/About';
 import './App.css';
 import Menu from './Menu/Menu';
 import Promo from './Promo/Promo';
-import Experience from './Experience/Experience'
+import Experience from './Experience/Experience';
 import Skills from './Skills/Skills';
 import Portfolio from './Portfolio/Portfolio';
+import ImagePopup from './ImagePopup/ImagePopup';
 
 function App() {
 
   const [menuActive, setMenuActive] = useState(false);
 
+  const [selectedCard, setSelectedCard] = React.useState(null);
+
+  function closeAll() {
+    setMenuActive(false);
+    setSelectedCard(null);
+  }
+
   useEffect(() => {
-    if (menuActive) {
+    if (menuActive || selectedCard) {
       function handleEsc(evt) {
         if (evt.key === 'Escape') {
-          setMenuActive(false);
+          closeAll();
         }
       }
 
@@ -27,6 +35,10 @@ function App() {
       }
     }
   }, [menuActive]);
+
+  function handleCardClick(project) {
+    setSelectedCard(project);
+  }
 
   // данные для бургер-меню
 
@@ -111,8 +123,9 @@ function App() {
   ]
 
   const projects = [
-    {id: '1', src:'/images/my-portfolio.png', title: 'Portfolio', text: 'Проект-портфолио.'},
-
+    {id: '1', src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true', title: 'Portfolio', text: 'Проект-портфолио.'},
+    {id: '2', src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true', title: 'Portfolio', text: 'Проект-портфолио.'},
+    {id: '3', src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true', title: 'Portfolio', text: 'Проект-портфолио.'},
   ]
   
   return (
@@ -129,9 +142,13 @@ function App() {
         <About id='about'/>
         <Experience id='experience' educations={educations} works={works}/>
         <Skills id='skills' skills={skills}/>
-        <Portfolio id='portfolio' projects={projects}/>
+        <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick}/>
       </main>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
+      <ImagePopup 
+        project={selectedCard}
+        onClose={closeAll}
+       />
       </BrowserRouter>
     </div>
   );
