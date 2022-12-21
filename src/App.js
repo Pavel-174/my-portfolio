@@ -123,7 +123,13 @@ function App() {
   ]
 
   const projects = [
-    {id: '1', src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true', title: 'Portfolio', text: 'Проект-портфолио.'},
+    {
+      id: '1', 
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true',
+      title: 'Portfolio', text: 'Проект-портфолио.',
+      site: 'https://pavel-174.github.io/my-portfolio/',
+      git: 'https://github.com/Pavel-174/my-portfolio'
+    },
     {id: '2', src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true', title: 'Portfolio', text: 'Проект-портфолио.'},
     {id: '3', src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true', title: 'Portfolio', text: 'Проект-портфолио.'},
   ]

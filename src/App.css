@@ -14,7 +14,7 @@ nav{
   width: 100%;
   background-color: #fecd00;
   position: fixed;
-  z-index: 50;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
