@@ -35,8 +35,8 @@ function Skills() {
             <p className="skills__content-text">Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
           </div>
           <div className="skills__content">
-            <img className="skills__content-image" src="./" alt="логотип Redux"></img>
-            <p className="skills__content-text">Это библиотека для JavaScript с открытым исходным кодом, предназначенная для управления состоянием приложения. Содержит ряд инструментов, позволяющих значительно упростить передачу данных хранилища через контекст.</p>
+            <img className="skills__content-image" src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/redux.png?raw=true" alt="логотип Redux"></img>
+            <p className="skills__content-text">Эта библиотека предназначенна для управления состоянием приложения. Содержит ряд инструментов, позволяющих значительно упростить передачу данных хранилища через контекст.</p>
           </div>
         </div>
       </div>   

@@ -44,7 +44,6 @@
   display: grid;
   flex-direction: column;
   max-width: 270px;
-  max-height: 270px;
   justify-items: center;
   border: 1px solid;
 }
