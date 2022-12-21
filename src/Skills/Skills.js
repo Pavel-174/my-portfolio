@@ -34,6 +34,10 @@ function Skills() {
             <img className="skills__content-image" src="https://raw.githubusercontent.com/Pavel-174/my-portfolio/5a946e32e2eb0926f2b6a3fb39c4c4ccdedc7652/src/images/Mongo.db.svg" alt="логотип Mongo.db"></img>
             <p className="skills__content-text">Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
           </div>
+          <div className="skills__content">
+            <img className="skills__content-image" src="./" alt="логотип Redux"></img>
+            <p className="skills__content-text">Это библиотека для JavaScript с открытым исходным кодом, предназначенная для управления состоянием приложения. Содержит ряд инструментов, позволяющих значительно упростить передачу данных хранилища через контекст.</p>
+          </div>
         </div>
       </div>   
     );

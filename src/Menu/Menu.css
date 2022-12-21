@@ -53,10 +53,6 @@
    transition: 0.8s;
 }
 
-.menu__list-item {
-  
-}
-
 .menu__list {
   display: flex;
   flex-direction: column;
