@@ -34,7 +34,7 @@ function About() {
             <ul className="about__list">
                 <li className="about__list-items">Писать код на HTML, CSS и JavaScript в парадигме ООП;</li>
                 <li className="about__list-items">Создавать адаптивные интерфейсы для разных устройств;</li>
-                <li className="about__list-items">Разрабатывать сайты и веб-приложения наReact;</li>
+                <li className="about__list-items">Разрабатывать сайты и веб-приложения на React;</li>
             </ul>
             </div>
         </div>

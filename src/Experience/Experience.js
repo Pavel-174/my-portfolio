@@ -1,7 +1,7 @@
 import React from "react";
 import "./Experience.css"
 
-function Experience() {
+function Experience({educations, works}) {
 
     return (
       <div className='experience'>
@@ -12,21 +12,21 @@ function Experience() {
         <div className="experience__content">
           <ul className="experience__education">
             <h4 className="experience__header4">Образование:</h4>
-            <li className="experience__item">
-              <h5>Курсы Яндекс.Практикум (2022-2023)</h5>
-              <p  className="experience__item-text">Специальность: Web-разработчик</p>
-            </li>
-            <li className="experience__item">
-              <h5>ЮУрГУ (2016-2021)</h5>
-              <p  className="experience__item-text">Специальность: Туризм, баклавр</p>
-            </li>
+            {educations.map(education =>
+              <li className="experience__item" key={education.id}>
+                <h5>{education.title}</h5>
+                <p  className="experience__item-text">{education.text}</p>
+              </li>
+            )}
           </ul>
           <ul className="experience__work">
             <h4 className="experience__header4">Работа и соревнования:</h4>
-            <li className="experience__item">
-              <h5>Хакатон Яндекса (2021)</h5>
-              <p className="experience__item-text">Учавствовал в первом хакатоне Яндекса (эксперементальный Хакатон)</p>
-            </li>
+            {works.map(work =>
+              <li className="experience__item" key={work.id}>
+                <h5>{work.title}</h5>
+                <p  className="experience__item-text">{work.text}</p>
+              </li>
+            )}
           </ul>
         </div>
       </div>   

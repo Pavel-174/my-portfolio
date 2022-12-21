@@ -60,6 +60,7 @@
   align-items: baseline;
   flex-direction: column;
   padding-bottom: 30px;
+  max-width: 450px;
 }
 
 .experience__item:last-child {
