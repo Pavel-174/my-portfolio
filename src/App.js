@@ -130,8 +130,62 @@ function App() {
       site: 'https://pavel-174.github.io/my-portfolio/',
       git: 'https://github.com/Pavel-174/my-portfolio'
     },
-    {id: '2', src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true', title: 'Portfolio', text: 'Проект-портфолио.'},
-    {id: '3', src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true', title: 'Portfolio', text: 'Проект-портфолио.'},
+    {
+      id: '2',
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true',
+      site: 'https://pavel-174.github.io/how-to-learn/',
+      git: 'https://github.com/Pavel-174/how-to-learn',
+      title: 'How to learn',
+      text: 'Проект о том как научиться учиться.'
+    },
+    {
+      id: '3',
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true',
+      site: 'https://pavel-174.github.io/russian-travel/',
+      git: 'https://github.com/Pavel-174/russian-travel',
+      title: 'Russian travel',
+      text: 'Проект о путишествия по России.'
+    },
+    {
+      id: '4',
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true',
+      site: 'https://pavel-174.github.io/landing-yandex-praktikum/',
+      git: 'https://github.com/Pavel-174/landing-yandex-praktikum',
+      title: 'Landing for Yandex.practicum',
+      text: 'Конкурсный проект для хакатона Яндекс.Практикума.'
+    },
+    {
+      id: '5',
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true',
+      site: 'https://pavel-174.github.io/norman-borlaug/',
+      git: 'https://github.com/Pavel-174/norman-borlaug',
+      title: 'Dr. Norman Borlaug',
+      text: 'Самая первая верстка с Free Code Camp'
+    },
+    {
+      id: '6',
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true',
+      site: 'https://github.com/Pavel-174/mesto',
+      git: 'https://pavel-174.github.io/mesto/',
+      title: 'Mesto',
+      text: 'Учебный проект Mesto'
+    },
+    {
+      id: '7',
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true',
+      site: 'https://pavel-174.github.io/mesto-react/',
+      git: 'https://github.com/Pavel-174/mesto-react',
+      title: 'Mesto Куфсе',
+      text: 'Учебный проект Mesto на реакте'
+    },
+    {
+      id: '8',
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true',
+      site: 'https://pavel-174.github.io/signin',
+      git: 'https://github.com/Pavel-174/react-mesto-auth',
+      title: 'Mesto Auth',
+      text: 'Учебный проект Mesto на реакте с регистрацией и авторизацией'
+    },
   ]
   
   return (
