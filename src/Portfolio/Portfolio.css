@@ -4,11 +4,6 @@
     padding-top: 70px;
   }
   
-  .portfolio__content {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  
   .portfolio__header2 {
     margin: 0;
     padding: 0;
@@ -43,10 +38,14 @@
     grid-template-columns: auto auto auto;
     justify-items: center;
     padding-top: 40px;
+    column-gap: 10px;
+    row-gap: 30px;
   }
 
   .portfolio__item {
     cursor: pointer;
+    border: #fecd00 3px solid;
+    padding: 5px;
   }
 
   .portfolio__img {
@@ -54,10 +53,15 @@
     max-height: 202px;
   }
 
-  .portfolio__link {
+  .portfolio__links {
     display: flex;
     flex-direction: row;
     padding-top: 8px;
     justify-content: space-evenly;
     align-items: center;
+  }
+
+  .portfolio__link:hover {
+    opacity: 0.3;
+    transition: 0.8s;
   }

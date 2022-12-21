@@ -5,7 +5,7 @@ import Project from '../Project/Project';
 function Portfolio(props) {
     return (
       <div className='portfolio'>
-        <div className="portfolio__heaportfolioers">
+        <div className="portfolio__headers">
             <h3 className="portfolio__header3">Портфолио</h3>
             <h2 className="portfolio__header2">Мои работы</h2>
         </div>
