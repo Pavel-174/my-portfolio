@@ -8,6 +8,7 @@ import Experience from './Experience/Experience';
 import Skills from './Skills/Skills';
 import Portfolio from './Portfolio/Portfolio';
 import ImagePopup from './ImagePopup/ImagePopup';
+import Contacts from './Contacts/Contacts';
 
 function App() {
 
@@ -203,7 +204,7 @@ function App() {
         <Experience id='experience' educations={educations} works={works}/>
         <Skills id='skills' skills={skills}/>
         <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick}/>
-        <Contacts />
+        <Contacts  buttonTitle={'Сохранить'}/>
       </main>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
       <ImagePopup 
