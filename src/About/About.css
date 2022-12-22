@@ -59,6 +59,12 @@
     text-decoration-line: underline;
 }
 
+.about__link:hover {
+    opacity: 0.4;
+    transition: 0.8s;
+}
+
+
 .about__list {
     font-size: large;
 }

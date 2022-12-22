@@ -34,7 +34,7 @@ function App() {
         document.removeEventListener('keydown', handleEsc);
       }
     }
-  }, [menuActive]);
+  }, [menuActive, selectedCard]);
 
   function handleCardClick(project) {
     setSelectedCard(project);
@@ -165,8 +165,8 @@ function App() {
     {
       id: '6',
       src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto.png?raw=true',
-      site: 'https://github.com/Pavel-174/mesto',
-      git: 'https://pavel-174.github.io/mesto/',
+      site: 'https://pavel-174.github.io/mesto/',
+      git: 'https://github.com/Pavel-174/mesto',
       title: 'Mesto',
       text: 'Учебный проект Mesto'
     },
@@ -203,6 +203,7 @@ function App() {
         <Experience id='experience' educations={educations} works={works}/>
         <Skills id='skills' skills={skills}/>
         <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick}/>
+        <Contacts />
       </main>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
       <ImagePopup 
