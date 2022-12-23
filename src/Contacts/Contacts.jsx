@@ -10,7 +10,7 @@ const Contacts = (props) => {
         <h2 className="contacts__header2">Свяжитесь со мной</h2>
       </div>
       <div className='contacts__content'>
-        <img className='contacts__photo' src="https://avatars.githubusercontent.com/u/103818677?v=4" alt="на фото Павел Алексеев"></img>
+        <img className='contacts__photo' src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-photo.jpg?raw=true" alt="на фото Павел Алексеев"></img>
         <div className='contacts__info-box'>
           <h4 className="contacts__header4">Любым удобным вам способом:</h4>
           <div className='contacts__link-box'>
