@@ -10,6 +10,7 @@ import Portfolio from './Portfolio/Portfolio';
 import ImagePopup from './ImagePopup/ImagePopup';
 import Contacts from './Contacts/Contacts';
 import PopupContacts from './PopupContacts/PopupContacts';
+import Footer from './Footer/Footer';
 
 function App() {
 
@@ -216,6 +217,7 @@ function App() {
         <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick}/>
         <Contacts id='contacts' onSendForm={handlePopupContactsClick}/>
       </main>
+      <Footer items={items}/>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
       <ImagePopup 
         project={selectedCard}
