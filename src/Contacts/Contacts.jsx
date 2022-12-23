@@ -10,13 +10,13 @@ const Contacts = (props) => {
         <h2 className="contacts__header2">Свяжитесь со мной</h2>
       </div>
       <div className='contacts__content'>
-      <img className='contacts__photo' src="https://avatars.githubusercontent.com/u/103818677?v=4" alt="на фото Павел Алексеев"></img>
+        <img className='contacts__photo' src="https://avatars.githubusercontent.com/u/103818677?v=4" alt="на фото Павел Алексеев"></img>
         <div className='contacts__info-box'>
           <h4 className="contacts__header4">Любым удобным вам способом:</h4>
           <div className='contacts__link-box'>
-            <a href="https://github.com/Pavel-174"><img className='contacts__image-link' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1200px-Github-desktop-logo-symbol.svg.png"></img></a>
-            <a href="https://www.linkedin.com/in/павел-алексеев/"><img className='contacts__image-link' src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/06_linkedin-1024.png"></img></a>
-            <a href="https://t.me/alekseevps93/"><img className='contacts__image-link' src="https://static.insales-cdn.com/files/1/2057/19826697/original/istockphoto-1145772045-170x170.jpg"></img></a>
+            <a href="https://github.com/Pavel-174"><img className='contacts__image-link' src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Github2.png?raw=true"></img></a>
+            <a href="https://www.linkedin.com/in/павел-алексеев/"><img className='contacts__image-link' src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/LinkedIn.png?raw=true"></img></a>
+            <a href="https://t.me/alekseevps93/"><img className='contacts__image-link' src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Telegram.jpg?raw=true"></img></a>
           </div>
           <button className='contacts__button' onClick={props.onSendForm}>Форма обратной связи</button>
         </div>
