@@ -9,6 +9,7 @@ import Skills from './Skills/Skills';
 import Portfolio from './Portfolio/Portfolio';
 import ImagePopup from './ImagePopup/ImagePopup';
 import Contacts from './Contacts/Contacts';
+import PopupContacts from './PopupContacts/PopupContacts';
 
 function App() {
 
@@ -16,13 +17,16 @@ function App() {
 
   const [selectedCard, setSelectedCard] = React.useState(null);
 
+  const [isPopupContactsOpened, setIsPopupContactsOpened] = React.useState(false)
+
   function closeAll() {
     setMenuActive(false);
     setSelectedCard(null);
+    setIsPopupContactsOpened(false);
   }
 
   useEffect(() => {
-    if (menuActive || selectedCard) {
+    if (menuActive || selectedCard || isPopupContactsOpened) {
       function handleEsc(evt) {
         if (evt.key === 'Escape') {
           closeAll();
@@ -35,11 +39,16 @@ function App() {
         document.removeEventListener('keydown', handleEsc);
       }
     }
-  }, [menuActive, selectedCard]);
+  }, [menuActive, selectedCard, isPopupContactsOpened]);
 
   function handleCardClick(project) {
     setSelectedCard(project);
   }
+
+  function handlePopupContactsClick() {
+    setIsPopupContactsOpened(true);
+  }
+
 
   // данные для бургер-меню
 
@@ -204,13 +213,19 @@ function App() {
         <Experience id='experience' educations={educations} works={works}/>
         <Skills id='skills' skills={skills}/>
         <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick}/>
-        <Contacts  buttonTitle={'Сохранить'}/>
+        <Contacts  
+        onSendForm={handlePopupContactsClick}
+        />
       </main>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
       <ImagePopup 
         project={selectedCard}
         onClose={closeAll}
        />
+      <PopupContacts 
+      onClose={closeAll}
+      isOpen={isPopupContactsOpened}
+      />
       </BrowserRouter>
     </div>
   );
