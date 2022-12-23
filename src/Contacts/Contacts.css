@@ -55,6 +55,11 @@
     margin-top: 55px;
   }
 
+  .contacts__image-link:hover {
+    opacity: 0.6;
+    transition: 0.8s;
+  }
+
   .contacts__button {
     margin: 40px 0 0 0;
     padding: 0;
@@ -109,7 +114,7 @@
   .contacts__frame {
     grid-column-start: 1;
     grid-column-end: 3;
-    width: 692px;
+    width: 660px;
   }
 }
 

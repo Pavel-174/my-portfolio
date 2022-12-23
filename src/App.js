@@ -16,9 +16,9 @@ function App() {
 
   const [menuActive, setMenuActive] = useState(false);
 
-  const [selectedCard, setSelectedCard] = React.useState(null);
+  const [selectedCard, setSelectedCard] = useState(null);
 
-  const [isPopupContactsOpened, setIsPopupContactsOpened] = React.useState(false)
+  const [isPopupContactsOpened, setIsPopupContactsOpened] = useState(false)
 
   function closeAll() {
     setMenuActive(false);

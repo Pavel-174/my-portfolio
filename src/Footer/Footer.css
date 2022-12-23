@@ -5,7 +5,7 @@
 }
 
 .footer__list-link:hover {
-    opacity: 0.8;
+    opacity: 0.4;
     transition: 0.7s;
 }
 
