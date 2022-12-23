@@ -12,7 +12,7 @@ function Portfolio(props) {
         <ul className="portfolio__items">
         {props.projects.map(project =>
           <Project
-            id={project.id}
+            key={project.id}
             project={project}
             src={project.src}
             title={project.title}

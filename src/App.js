@@ -57,7 +57,8 @@ function App() {
     {id: '2', value:'Про меня', href:'about'},
     {id: '3', value:'Опыт', href:'experience'},
     {id: '4', value:'Навыки', href:'skills'},
-    {id: '5', value:'Портфолио', href:'portfolio'}
+    {id: '5', value:'Портфолио', href:'portfolio'},
+    {id: '6', value:'Контакты', href:'contacts'}
   ]
 
   // данные для раздела Experience колонки Образование
@@ -213,9 +214,7 @@ function App() {
         <Experience id='experience' educations={educations} works={works}/>
         <Skills id='skills' skills={skills}/>
         <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick}/>
-        <Contacts  
-        onSendForm={handlePopupContactsClick}
-        />
+        <Contacts id='contacts' onSendForm={handlePopupContactsClick}/>
       </main>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
       <ImagePopup 
