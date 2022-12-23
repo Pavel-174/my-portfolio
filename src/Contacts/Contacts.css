@@ -96,26 +96,6 @@
   .contacts__photo {
     display: none
   }
-
-  .contacts__headers{
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contacts__header2 {
-    text-align: center;
-}
-
-.contacts__header3 {
-    text-align: center;
-    padding-left: 0;
-}
-
-.contacts__header3::before {
-    left: -46%;
-}
 }
 
 @media screen and (min-width: 320px) and (max-width: 650px){
@@ -128,6 +108,9 @@
     display: none
   }
 
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
   .contacts__headers{
     padding: 0 20px;
     display: flex;
