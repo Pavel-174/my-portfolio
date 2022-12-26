@@ -1,13 +1,13 @@
 import React from "react";
 import "./Experience.css"
 
-function Experience({educations, works}) {
+function Experience({educations, works, title, subtitle}) {
 
     return (
       <div className='experience'>
         <div className="experience__headers">
-          <h3 className="experience__header3">Опыт</h3>
-          <h2 className="experience__header2">Чем я буду полезен</h2>
+          <h3 className="experience__header3">{title}</h3>
+          <h2 className="experience__header2">{subtitle}</h2>
         </div>
         <div className="experience__content">
           <ul className="experience__education">

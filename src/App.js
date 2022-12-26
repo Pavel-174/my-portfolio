@@ -51,7 +51,7 @@ function App() {
   }
 
 
-  // данные для бургер-меню
+ // данные для бургер-меню
 
   const items = [
     {id: '1', value:'Главная', href:'promo'}, 
@@ -210,12 +210,12 @@ function App() {
         <h2 className='nav__header'>Eng</h2>
       </nav>
       <main>
-        <Promo id="promo"/>
-        <About id='about'/>
-        <Experience id='experience' educations={educations} works={works}/>
-        <Skills id='skills' skills={skills}/>
-        <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick}/>
-        <Contacts id='contacts' onSendForm={handlePopupContactsClick}/>
+        <Promo id="promo" title="Павел Алексеев" subtitle="Front-end developer"/>
+        <About id='about' title="Про меня" subtitle="Меня зовут Павел Алексеев"/>
+        <Experience id='experience' educations={educations} works={works} title="Опыт" subtitle="Чем я буду полезен"/>
+        <Skills id='skills' skills={skills} title="Мои навыки" subtitle="Что я использую в работе"/>
+        <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick} title="Портфолио" subtitle="Мои работы"/>
+        <Contacts id='contacts' onSendForm={handlePopupContactsClick} title="Контакты" subtitle="Свяжитесь со мной"/>
       </main>
       <Footer items={items}/>
       <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>

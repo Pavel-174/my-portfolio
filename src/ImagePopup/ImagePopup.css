@@ -32,14 +32,24 @@
 
 .popup__caption{
     font-family: Inter;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
     margin: 10px 0 0 0;
-    max-width: 80wv;
+    max-width: 80vw;
+}
+
+.popup__link {
+    color: #007bff;;
+    padding-left: 5px;
+}
+
+.popup__link:hover {
+    opacity: 0.4;
+    transition: 0.8s;
 }
 
 .popup__close{

@@ -2,12 +2,12 @@ import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./About.css";
 
-function About() {
+function About({title, subtitle}) {
     return (
       <div className='about'>
         <div className="about__headers">
-            <h3 className="about__header3">Про меня</h3>
-            <h2 className="about__header2">Меня зовут Павел Алексеев</h2>
+            <h3 className="about__header3">{title}</h3>
+            <h2 className="about__header2">{subtitle}</h2>
         </div>
         <img src="https://avatars.githubusercontent.com/u/103818677?v=4" alt="на фото Павел Алексеев"></img>
         <div className="about__texts">

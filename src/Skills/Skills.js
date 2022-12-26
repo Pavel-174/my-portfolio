@@ -1,13 +1,13 @@
 import React from "react";
 import "./Skills.css"
 
-function Skills({skills}) {
+function Skills({skills, title, subtitle}) {
 
     return (
       <div className='skills'>
         <div className="skills__headers">
-          <h3 className="skills__header3">Мои навыки</h3>
-          <h2 className="skills__header2">Что я использую в работе</h2>
+          <h3 className="skills__header3">{title}</h3>
+          <h2 className="skills__header2">{subtitle}</h2>
         </div>
         <div className="skills__box">
           {skills.map(skill =>

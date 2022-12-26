@@ -3,7 +3,7 @@ import "./PopupContacts.css";
 import emailjs from '@emailjs/browser';
 
 
-function PopupContacts(props){
+function PopupContacts({isOpen, onClose}){
   const [isNameInputValid, setNameInputValid] = useState(false);
   const [isAboutInputValid, setAboutInputValid] = useState(false);
   const [isTextareaValid, setTextareaValid] = useState(false);
@@ -77,14 +77,13 @@ function PopupContacts(props){
   }
 
     return(
-      <div className={`popup popup_contacts ${props.isOpen ? `popup_opened`: ""}`} onClick={props.onClose}>
+      <div className={`popup popup_contacts ${isOpen ? `popup_opened`: ""}`} onClick={onClose}>
         <div className="popup__container" onClick={(e) => {e.stopPropagation();}}>
           <h2 className="popup__header">Форма обратной связи</h2>
-          <form className={'popup__form popup__form-${props.name}'} ref={form} onSubmit={sendEmail} method="post" noValidate>
+          <form className={'popup__form'} ref={form} onSubmit={sendEmail} method="post" noValidate>
             <input 
               required 
               className={`popup__text ${!isNameInputValid ? 'popup__text_type_error' : 'popup__text_type_ok'}`}
-              id="popup__name" 
               type="text" 
               placeholder="Имя" 
               name="user_name"
@@ -93,11 +92,10 @@ function PopupContacts(props){
               onChange={handleNameChange}
             >
             </input>
-            <span className={`popup__text-error ${!isNameInputValid ? 'popup__text-error_active' : 'popup__text-error_inactive'}`} id="popup__name-error">{nameValidationMessage}</span>
+            <span className={`popup__text-error ${!isNameInputValid ? 'popup__text-error_active' : 'popup__text-error_inactive'}`}>{nameValidationMessage}</span>
             <input 
               required 
               className={`popup__text ${!isAboutInputValid ? 'popup__text_type_error' : 'popup__text_type_ok'}`}
-              id="popup__profession" 
               type="email"
               placeholder="E-mail" 
               name="user_email" 
@@ -106,7 +104,7 @@ function PopupContacts(props){
               onChange={handleDescriptionChange}
             >
             </input>
-            <span className={`popup__text-error ${!isAboutInputValid ? 'popup__text-error_active' : 'popup__text-error_inactive'}`} id="popup__profession-error">{aboutValidationMessage}</span>
+            <span className={`popup__text-error ${!isAboutInputValid ? 'popup__text-error_active' : 'popup__text-error_inactive'}`}>{aboutValidationMessage}</span>
             <textarea 
               className={`popup__text popup__textarea ${!isTextareaValid ? 'popup__text_type_error' : 'popup__text_type_ok'}`}
               name="message"
@@ -117,17 +115,17 @@ function PopupContacts(props){
               required
               onChange={handleTextChange}
             />
-            <span className={`popup__text-error ${!isTextareaValid ? 'popup__text-error_active' : 'popup__text-error_inactive'}`} id="popup__profession-error">{textareaValidationMessage}</span>
+            <span className={`popup__text-error ${!isTextareaValid ? 'popup__text-error_active' : 'popup__text-error_inactive'}`}>{textareaValidationMessage}</span>
             <button 
               className={`popup__save button-hide ${!buttonSubmitState ? 'popup__save_invalid' :'popup__save_valid'}`} 
               disabled={!buttonSubmitState ? true :''} 
               type="submit"
-              onClick={props.onClose}
+              onClick={onClose}
             >
               Отправить
             </button>
           </form>
-          <button className="popup__close button-close" type="button" aria-label="кнопка закрытия" onClick={props.onClose}></button>
+          <button className="popup__close button-close" type="button" aria-label="кнопка закрытия" onClick={onClose}></button>
         </div>
       </div>  
     )    
