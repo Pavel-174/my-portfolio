@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^pavel-alekseev\.ru$ [NC]
+
+RewriteRule ^(.*)$ http://www.pavel-alekseev.ru/$1 [R=301,L]
