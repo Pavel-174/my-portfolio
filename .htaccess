@@ -2,4 +2,4 @@ AddDefaultCharset UTF-8
 
 RewriteEngine On
 RewriteCond %{HTTP:HTTPS} !=on [NC]
-RewriteRule ^(.*)$ https://www.example.com/$1 [R=301,L]
+RewriteRule ^(.*)$ https://pavel-alekseev.com/$1 [R=301,L]
