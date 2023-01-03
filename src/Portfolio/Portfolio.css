@@ -90,6 +90,14 @@
     cursor: pointer;
 }
 
+.portfolio__item-enter-active {
+  animation: fade-in 500ms forwards;
+}
+
+.portfolio__item-exit-active {
+  animation: fade-in 500ms forwards;
+}
+
   @media screen and (min-width: 679px) and (max-width: 999px){
     .portfolio__items {
         grid-template-columns: auto auto;

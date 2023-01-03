@@ -3,6 +3,7 @@ import './Portfolio.css';
 import Project from '../Project/Project';
 import { Link, animateScroll as scroll } from "react-scroll";
 
+
 function Portfolio({projects, onCardClick, title, subtitle, id}) {
 
   const initialCountItem = 3;
