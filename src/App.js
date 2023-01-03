@@ -144,14 +144,22 @@ function App() {
     },
     {
       id: '2',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/how-to-learn.png?raw=true',
-      site: 'https://pavel-174.github.io/how-to-learn/',
-      git: 'https://github.com/Pavel-174/how-to-learn',
-      title: 'How to learn',
-      text: 'Проект о том как научиться учиться.'
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto-auth.png?raw=true',
+      site: 'https://pavel-174.github.io/react-mesto-auth/',
+      git: 'https://github.com/Pavel-174/react-mesto-auth',
+      title: 'Mesto Auth',
+      text: 'Учебный проект Mesto на реакте с регистрацией и авторизацией'
     },
     {
       id: '3',
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/landing-praktik.png?raw=true',
+      site: 'https://pavel-174.github.io/landing-yandex-praktikum/',
+      git: 'https://github.com/Pavel-174/landing-yandex-praktikum',
+      title: 'Landing for Yandex.practicum',
+      text: 'Конкурсный проект для хакатона Яндекс.Практикума.'
+    },
+    {
+      id: '4',
       src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/russian-travel.png?raw=true',
       site: 'https://pavel-174.github.io/russian-travel/',
       git: 'https://github.com/Pavel-174/russian-travel',
@@ -159,31 +167,15 @@ function App() {
       text: 'Проект о путишествия по России.'
     },
     {
-      id: '4',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/landing-praktikum.png?raw=true',
-      site: 'https://pavel-174.github.io/landing-yandex-praktikum/',
-      git: 'https://github.com/Pavel-174/landing-yandex-praktikum',
-      title: 'Landing for Yandex.practicum',
-      text: 'Конкурсный проект для хакатона Яндекс.Практикума.'
-    },
-    {
       id: '5',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/dr-norman.png?raw=true',
-      site: 'https://pavel-174.github.io/norman-borlaug/',
-      git: 'https://github.com/Pavel-174/norman-borlaug',
-      title: 'Dr. Norman Borlaug',
-      text: 'Самая первая верстка с Free Code Camp'
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/how-to-learn.png?raw=true',
+      site: 'https://pavel-174.github.io/how-to-learn/',
+      git: 'https://github.com/Pavel-174/how-to-learn',
+      title: 'How to learn',
+      text: 'Проект о том как научиться учиться.'
     },
     {
       id: '6',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto.png?raw=true',
-      site: 'https://pavel-174.github.io/mesto/',
-      git: 'https://github.com/Pavel-174/mesto',
-      title: 'Mesto',
-      text: 'Учебный проект Mesto'
-    },
-    {
-      id: '7',
       src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto.png?raw=true',
       site: 'https://pavel-174.github.io/mesto-react/',
       git: 'https://github.com/Pavel-174/mesto-react',
@@ -191,12 +183,20 @@ function App() {
       text: 'Учебный проект Mesto на реакте'
     },
     {
+      id: '7',
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/dr-norman.png?raw=true',
+      site: 'https://pavel-174.github.io/norman-borlaug/',
+      git: 'https://github.com/Pavel-174/norman-borlaug',
+      title: 'Dr. Norman Borlaug',
+      text: 'Самая первая верстка с Free Code Camp'
+    },
+    {
       id: '8',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto-auth.png?raw=true',
-      site: 'https://pavel-174.github.io/signin',
-      git: 'https://github.com/Pavel-174/react-mesto-auth',
-      title: 'Mesto Auth',
-      text: 'Учебный проект Mesto на реакте с регистрацией и авторизацией'
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto.png?raw=true',
+      site: 'https://pavel-174.github.io/mesto/',
+      git: 'https://github.com/Pavel-174/mesto',
+      title: 'Mesto',
+      text: 'Учебный проект Mesto'
     },
   ]
   
