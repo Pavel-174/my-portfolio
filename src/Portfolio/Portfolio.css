@@ -47,6 +47,7 @@
     cursor: pointer;
     border: #fecd00 3px solid;
     padding: 5px;
+    animation: fade-in 2s ease-in-out;
   }
 
   .portfolio__img {
@@ -95,12 +96,13 @@
   transition: 0.8s;
 }
 
-.portfolio__item-enter-active {
-  animation: fade-in 500ms forwards;
-}
-
-.portfolio__item-exit-active {
-  animation: fade-in 500ms forwards;
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
   @media screen and (min-width: 679px) and (max-width: 999px){
