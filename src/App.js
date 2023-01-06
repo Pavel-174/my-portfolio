@@ -112,26 +112,32 @@ function App() {
       id: '4',
       image: 'https://raw.githubusercontent.com/Pavel-174/my-portfolio/b3012064a264f01c469ab9a59da78cbb9db87866/src/images/React.svg',
       alt:"логотип React",
-      text: 'Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели'
+      text: 'Эотот фрэймворк позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели'
     },
     {
       id: '5',
+      image: 'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/redux.png?raw=true',
+      alt:"логотип Redux",
+      text: 'Эта библиотека предназначенна для управления состоянием приложения. Содержит ряд инструментов, позволяющих значительно упростить передачу данных хранилища через контекст'
+    },
+    {
+      id: '6',
       image: 'https://raw.githubusercontent.com/Pavel-174/my-portfolio/b3012064a264f01c469ab9a59da78cbb9db87866/src/images/Node.js.svg',
       alt:"логотип Node.js",
       text: 'Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит'
     },
     {
-      id: '6',
+      id: '7',
+      image: 'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/redux.png?raw=true',
+      alt:"логотип Express",
+      text: 'Этот фрэймворк помогает ускорить разработку бэкэнда вашего продукта.'
+    },
+    {
+      id: '8',
       image: 'https://raw.githubusercontent.com/Pavel-174/my-portfolio/5a946e32e2eb0926f2b6a3fb39c4c4ccdedc7652/src/images/Mongo.db.svg',
       alt:"логотип Mongo.db",
       text: 'Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения'
     },
-    {
-      id: '7',
-      image: 'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/redux.png?raw=true',
-      alt:"логотип Redux",
-      text: 'Эта библиотека предназначенна для управления состоянием приложения. Содержит ряд инструментов, позволяющих значительно упростить передачу данных хранилища через контекст'
-    }
   ]
 
   const projects = [
