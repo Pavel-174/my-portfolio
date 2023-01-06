@@ -24,6 +24,8 @@ function PopupContacts({isOpen, onClose}){
       }, (error) => {
           console.log(error.text);
       });
+
+    e.target.reset();
   };
 
   function handleNameChange(evt) {
