@@ -54,6 +54,7 @@
 
 .skills__content-image{
   padding-top: 20px;
+  max-width: 160px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 650px){
