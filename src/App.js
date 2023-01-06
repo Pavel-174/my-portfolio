@@ -128,7 +128,7 @@ function App() {
     },
     {
       id: '7',
-      image: 'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/redux.png?raw=true',
+      image: 'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Expressjs.png?raw=true',
       alt:"логотип Express",
       text: 'Этот фрэймворк помогает ускорить разработку бэкэнда вашего продукта.'
     },
