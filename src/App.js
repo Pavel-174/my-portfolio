@@ -166,6 +166,14 @@ function App() {
     },
     {
       id: '4',
+      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto.png?raw=true',
+      site: 'https://pavel-174.github.io/mesto-react/',
+      git: 'https://github.com/Pavel-174/mesto-react',
+      title: 'Mesto React',
+      text: 'Учебный проект Mesto на реакте'
+    },
+    {
+      id: '5',
       src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/russian-travel.png?raw=true',
       site: 'https://pavel-174.github.io/russian-travel/',
       git: 'https://github.com/Pavel-174/russian-travel',
@@ -173,20 +181,12 @@ function App() {
       text: 'Проект о путишествия по России.'
     },
     {
-      id: '5',
+      id: '6',
       src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/how-to-learn.png?raw=true',
       site: 'https://pavel-174.github.io/how-to-learn/',
       git: 'https://github.com/Pavel-174/how-to-learn',
       title: 'How to learn',
       text: 'Проект о том как научиться учиться.'
-    },
-    {
-      id: '6',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto.png?raw=true',
-      site: 'https://pavel-174.github.io/mesto-react/',
-      git: 'https://github.com/Pavel-174/mesto-react',
-      title: 'Mesto React',
-      text: 'Учебный проект Mesto на реакте'
     },
     {
       id: '7',

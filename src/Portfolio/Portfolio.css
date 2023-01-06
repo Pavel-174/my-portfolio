@@ -90,6 +90,11 @@
     cursor: pointer;
 }
 
+.portfolio__button:hover {
+  opacity: 0.4;
+  transition: 0.8s;
+}
+
 .portfolio__item-enter-active {
   animation: fade-in 500ms forwards;
 }
