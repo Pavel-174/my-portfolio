@@ -66,12 +66,17 @@ function App() {
 
   const educations = [
     { 
-      id: '1',
+      id: '3',
       title: 'Курсы Яндекс.Практикум (2022-2023)',
       text: 'Специальность: Web-разработчик'
     },
-    { 
+    {
       id: '2',
+      title: 'Курс Free Code Camp (2022)',
+      text: 'Responsive Web Design Certification. Начал изучать html и css и сделал первую проектную работу.'
+    },
+    { 
+      id: '1',
       title: 'ЮУрГУ (2016-2021)',
       text: 'Специальность: Туризм, бакалавр'
     },
