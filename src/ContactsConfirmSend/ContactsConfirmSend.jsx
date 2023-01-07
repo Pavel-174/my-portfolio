@@ -8,7 +8,7 @@ function ContactsConfirmSend({setIsSend, onClose}){
     }
 
     return(
-      <div className="popup__form">
+      <div className="popup__form popup__confirmation">
         <img className='popup__form_image' src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Checkmark.png?raw=true"/>
         <p className="popup__form_message">Сооющение успешно отправлено!</p>
         <button 
