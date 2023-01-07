@@ -105,6 +105,15 @@
   margin-top: 40px;
 }
 
+.popup__form_image {
+  max-width: 230px;
+}
+
+.popup__form_message {
+  font-size: large;
+  text-align: center;
+}
+
 @media screen and (min-width: 700px) and (max-width: 999px){
 
   .contacts__content {
