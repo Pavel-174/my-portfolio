@@ -5,7 +5,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 
 function Portfolio({projects, onCardClick, title, subtitle, id}) {
-
+  // при необходимости поменять число отображаемых карточек необходимо так же 
+  // изменить выражение в значении псевдоклассов у классов portfolio__item-fade и portfolio__item-fade-in
   const initialCountItem = 3;
   const [isExpanded, setIsExpanded] = useState(false);
   const [fade, setFade] = useState(true);
