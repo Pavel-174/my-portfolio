@@ -1,13 +1,13 @@
 import React from "react";
 
-function Project({onCardClick, project, id, src, title, site, git}) {
+function Project({onCardClick, project, id, src, title, site, git, fade}) {
   
     function handleClick() {
       onCardClick(project);
     }
 
     return(
-      <li className="portfolio__item" key={id} onClick={handleClick}>
+      <li className={fade ? `portfolio__item portfolio__item-fade-out` : `portfolio__item portfolio__item-fade`} key={id} onClick={handleClick}>
         <img className="portfolio__img" src={src} alt={title}></img>
         <div className="portfolio__links">
           <h5>{title}</h5>

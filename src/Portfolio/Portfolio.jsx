@@ -8,7 +8,18 @@ function Portfolio({projects, onCardClick, title, subtitle, id}) {
 
   const initialCountItem = 3;
   const [isExpanded, setIsExpanded] = useState(false);
+  const [fade, setFade] = useState(true);
   const activeItems = isExpanded ? projects : projects.slice(0, initialCountItem);
+
+  async function showLess () {
+    setFade(false);
+    setTimeout(function() {setIsExpanded(false)}, 1000);
+  }
+
+  function showMore () {
+    setFade(true);
+    setIsExpanded(true);
+  }
 
     return (
       <div className='portfolio'>
@@ -27,12 +38,13 @@ function Portfolio({projects, onCardClick, title, subtitle, id}) {
                 site={project.site}
                 git={project.git}
                 onCardClick={onCardClick}
+                fade={fade}
               />
             )}
         </ul>
         <div className="portfolio__buttons">
           {!isExpanded ? (
-            <button className="portfolio__button" onClick={() => setIsExpanded(true)}>Показать больше проетов</button>
+            <button className="portfolio__button" onClick={showMore}>Показать больше проетов</button>
           ) : ("")}
           {isExpanded ? (
              <Link
@@ -41,7 +53,7 @@ function Portfolio({projects, onCardClick, title, subtitle, id}) {
              duration={400}
              to={id}
              >
-              <button className="portfolio__button" onClick={() => setIsExpanded(false)}>Показать меньше проетов</button>
+              <button className="portfolio__button" onClick={showLess}>Показать меньше проетов</button>
             </Link>
           ) : ("")}
         </div>

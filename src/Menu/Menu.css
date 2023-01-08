@@ -23,7 +23,7 @@
 .menu__content {
   width: 25%;
   height: 100%;
-  background-color: #0bd5e3;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +32,7 @@
 
 .menu__header {
   font-size: 2rem;
-  color: black;
+  color: white;
   padding: 10px;
   border-bottom: 5px solid #fecd00;
   width: 100%;
@@ -40,7 +40,7 @@
 }
 
 .menu__list-link {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size:1.8rem;
   margin-bottom: 10px;
