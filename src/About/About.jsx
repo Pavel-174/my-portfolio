@@ -25,7 +25,7 @@ function About({title, subtitle}) {
                 >
                   Портфолио
                 </Link>. 
-                Я открыт к предложениям на позицию вэб-разработчика, 
+                Я открыт к предложениям на позицию фронтэнд-разработчика, 
                 где могу внести свой вклад и развиваться вместе с компанией. 
                 Если у вас есть вакансия, которая соответствует моим навыкам и опыту, не стесняйтесь&nbsp;
                 <Link 
@@ -45,6 +45,7 @@ function About({title, subtitle}) {
                 <li className="about__list-items">Писать код на HTML, CSS и JavaScript в парадигме ООП;</li>
                 <li className="about__list-items">Создавать адаптивные интерфейсы для разных устройств;</li>
                 <li className="about__list-items">Разрабатывать сайты и веб-приложения на React;</li>
+                <li className="about__list-items">Писать простой back-end на Node.js;</li>
             </ul>
             </div>
         </div>
