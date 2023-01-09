@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter } from "react-router-dom";
+import NavBar from './NavBar/NavBar';
 import About from './About/About';
 import './App.css';
 import Menu from './Menu/Menu';
@@ -48,6 +49,10 @@ function App() {
 
   function handlePopupContactsClick() {
     setIsPopupContactsOpened(true);
+  }
+
+  function switchMenu () {
+    setMenuActive(!menuActive);
   }
 
 
@@ -214,12 +219,7 @@ function App() {
   return (
     <div className='app'>
       <BrowserRouter>
-      <nav>
-        <div className='burger-btn' onClick={() => setMenuActive(!menuActive)}>
-          <span/>
-        </div>
-        <h2 className='nav__header'>Eng</h2>
-      </nav>
+      <NavBar switchMenu={switchMenu}/>
       <main>
         <Promo id="promo" title="Павел Алексеев" subtitle="Front-end developer"/>
         <About id='about' title="Про меня" subtitle="Меня зовут Павел Алексеев"/>
