@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter } from "react-router-dom";
-import NavBar from './NavBar/NavBar';
-import About from './About/About';
-import './App.css';
-import Menu from './Menu/Menu';
-import Promo from './Promo/Promo';
-import Experience from './Experience/Experience';
-import Skills from './Skills/Skills';
-import Portfolio from './Portfolio/Portfolio';
-import ImagePopup from './ImagePopup/ImagePopup';
-import Contacts from './Contacts/Contacts';
-import PopupContacts from './PopupContacts/PopupContacts';
-import Footer from './Footer/Footer';
+import '../App.css';
+import NavBar from './NavBar';
+import About from './About';
+import Menu from './Menu';
+import Promo from './Promo';
+import Experience from './Experience';
+import Skills from './Skills';
+import Portfolio from './Portfolio';
+import ImagePopup from './ImagePopup';
+import Contacts from './Contacts';
+import PopupContacts from './PopupContacts';
+import Footer from './Footer';
 
 function App() {
 

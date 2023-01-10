@@ -1,5 +1,5 @@
 import React from "react";
-import "./Skills.css"
+import "../Skills/Skills.css"
 
 function Skills({skills, title, subtitle}) {
 

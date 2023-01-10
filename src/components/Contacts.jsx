@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Contacts.css";
+import "../Contacts/Contacts.css";
 
 const Contacts = ({onSendForm, title, subtitle}) => {   
 

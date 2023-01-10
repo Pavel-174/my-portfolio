@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import "./About.css";
+import "../About/About.css";
 
 function About({title, subtitle}) {
     return (

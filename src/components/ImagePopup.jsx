@@ -1,5 +1,5 @@
 import React from "react";
-import "./ImagePopup.css";
+import "../ImagePopup/ImagePopup.css";
 
 function ImagePopup({project, onClose}){
     return(
