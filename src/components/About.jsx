@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import photo from '../images/my-photo2.jpg'
 
 function About({title, subtitle}) {
     return (
@@ -10,7 +11,7 @@ function About({title, subtitle}) {
         </div>
         <div className="about__content-box">
           <div className="about__content">
-            <img className="about__image" src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-photo2.jpg?raw=true" alt="на фото Павел Алексеев"></img>
+            <img className="about__image" src={photo} alt="на фото Павел Алексеев"></img>
             <div className="about__texts">
               <p className="about__paragraph">
                 Я вэб-разработчик. 

@@ -21,6 +21,7 @@
 @import url(./blocks/about/__paragraph/about__paragraph.css);
 @import url(./blocks/about/__list-box/about__list-box.css);
 @import url(./blocks/about/__list/about__list.css);
+@import url(./blocks/about/__list-items/about__list-items.css);
 
 /* Блок Experience */
 @import url(./blocks/experience/experience.css);

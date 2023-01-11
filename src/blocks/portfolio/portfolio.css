@@ -61,6 +61,10 @@
     animation: fade-in 2.5s ease-in-out;
   }
 
+  .portfolio__icon_git {
+    width: 26px;
+  }
+
   @keyframes fade-in {
     0% {
         opacity: 0;

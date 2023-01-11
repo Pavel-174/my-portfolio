@@ -1,4 +1,8 @@
 import React from 'react';
+import photo from '../images/my-photo.jpg';
+import git from '../images/Github2.png';
+import linkedin from '../images/LinkedIn.png';
+import telegram from '../images/Telegram.jpg';
 
 const Contacts = ({onSendForm, title, subtitle}) => {   
 
@@ -9,13 +13,13 @@ const Contacts = ({onSendForm, title, subtitle}) => {
         <h2 className="contacts__header2">{subtitle}</h2>
       </div>
       <div className='contacts__content'>
-        <img className='contacts__photo' src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-photo.jpg?raw=true" alt="на фото Павел Алексеев"></img>
+        <img className='contacts__photo' src={photo} alt="на фото Павел Алексеев"></img>
         <div className='contacts__info-box'>
           <h4 className="contacts__header4">Любым удобным вам способом:</h4>
           <div className='contacts__link-box'>
-            <a href="https://github.com/Pavel-174"><img className='contacts__image-link' src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Github2.png?raw=true"></img></a>
-            <a href="https://www.linkedin.com/in/павел-алексеев/"><img className='contacts__image-link' src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/LinkedIn.png?raw=true"></img></a>
-            <a href="https://t.me/alekseevps93/"><img className='contacts__image-link' src="https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Telegram.jpg?raw=true"></img></a>
+            <a href="https://github.com/Pavel-174"><img className='contacts__image-link' src={git}></img></a>
+            <a href="https://www.linkedin.com/in/павел-алексеев/"><img className='contacts__image-link' src={linkedin}></img></a>
+            <a href="https://t.me/alekseevps93/"><img className='contacts__image-link' src={telegram}></img></a>
           </div>
           <button className='contacts__button' onClick={onSendForm}>Форма обратной связи</button>
         </div>

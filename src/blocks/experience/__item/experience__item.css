@@ -1,7 +1,7 @@
 .experience__item {
   list-style-type: none;
   padding-left: 2rem;
-  background-image: url(https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Checkmark.png?raw=true);
+  background-image: url(../../../images/Checkmark.png);
   background-size: 25px 25px;
   background-repeat: no-repeat;
   line-height: 2;

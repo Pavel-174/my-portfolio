@@ -12,6 +12,26 @@ import Contacts from './Contacts';
 import PopupContacts from './PopupContacts';
 import Footer from './Footer';
 
+// фото для раздела Skills
+import html5 from '../images/html5.svg';
+import css3 from '../images/css3.svg';
+import js from '../images/JS.svg';
+import react from '../images/React.svg';
+import redux from  '../images/redux.png';
+import node from  '../images/Node.js.svg';
+import express from  '../images/Expressjs.png';
+import mongo from  '../images/Mongo.db.svg';
+
+// фото для раздела Projects
+import mesto from '../images/mesto.png';
+import portfolio from '../images/my-portfolio.png';
+import mesto_auth from '../images/mesto-auth.png';
+import landing from '../images/landing-praktik.png';
+import travel from '../images/russian-travel.png';
+import learn from '../images/how-to-learn.png';
+import norman from '../images/dr-norman.png';
+
+
 function App() {
 
   const [menuActive, setMenuActive] = useState(false);
@@ -101,65 +121,67 @@ function App() {
   const skills = [
     {
       id: '1',
-      image: 'https://raw.githubusercontent.com/Pavel-174/my-portfolio/b3012064a264f01c469ab9a59da78cbb9db87866/src/images/html5.svg',
+      image: html5,
       alt:"логотип html5",
       text: 'Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта'
     },
     {
       id: '2',
-      image: 'https://raw.githubusercontent.com/Pavel-174/my-portfolio/b3012064a264f01c469ab9a59da78cbb9db87866/src/images/css3.svg',
+      image: css3,
       alt:"логотип css3",
       text: 'Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!'
     },
     {
       id: '3',
-      image: 'https://raw.githubusercontent.com/Pavel-174/my-portfolio/b3012064a264f01c469ab9a59da78cbb9db87866/src/images/JS.svg',
+      image: js,
       alt:"логотип JavaScript",
       text: 'Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое'
     },
     {
       id: '4',
-      image: 'https://raw.githubusercontent.com/Pavel-174/my-portfolio/b3012064a264f01c469ab9a59da78cbb9db87866/src/images/React.svg',
+      image: react,
       alt:"логотип React",
       text: 'Эотот фрэймворк позволяет создавать web-приложения. Он помогает создать максимально интерактивный продукт именно под ваши цели'
     },
     {
       id: '5',
-      image: 'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/redux.png?raw=true',
+      image: redux,
       alt:"логотип Redux",
       text: 'Эта библиотека предназначенна для управления состоянием приложения. Содержит ряд инструментов, позволяющих значительно упростить передачу данных хранилища через контекст'
     },
     {
       id: '6',
-      image: 'https://raw.githubusercontent.com/Pavel-174/my-portfolio/b3012064a264f01c469ab9a59da78cbb9db87866/src/images/Node.js.svg',
+      image: node,
       alt:"логотип Node.js",
       text: 'Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит'
     },
     {
       id: '7',
-      image: 'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Expressjs.png?raw=true',
+      image: express,
       alt:"логотип Express",
       text: 'Этот фрэймворк помогает ускорить разработку бэкэнда вашего продукта.'
     },
     {
       id: '8',
-      image: 'https://raw.githubusercontent.com/Pavel-174/my-portfolio/5a946e32e2eb0926f2b6a3fb39c4c4ccdedc7652/src/images/Mongo.db.svg',
+      image: mongo,
       alt:"логотип Mongo.db",
       text: 'Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения'
     },
   ]
 
+  //данные для раздела Projects
+
   const projects = [
     {
       id: '1', 
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/my-portfolio.png?raw=true',
+      src: portfolio,
       title: 'Portfolio', text: 'Проект-портфолио.',
       site: 'https://pavel-174.github.io/my-portfolio/',
       git: 'https://github.com/Pavel-174/my-portfolio'
     },
     {
       id: '2',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto-auth.png?raw=true',
+      src: mesto_auth,
       site: 'https://pavel-174.github.io/react-mesto-auth/',
       git: 'https://github.com/Pavel-174/react-mesto-auth',
       title: 'Mesto Auth',
@@ -167,7 +189,7 @@ function App() {
     },
     {
       id: '3',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/landing-praktik.png?raw=true',
+      src: landing,
       site: 'https://pavel-174.github.io/landing-yandex-praktikum/',
       git: 'https://github.com/Pavel-174/landing-yandex-praktikum',
       title: 'Landing for Yandex.practicum',
@@ -175,7 +197,7 @@ function App() {
     },
     {
       id: '4',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto.png?raw=true',
+      src: mesto,
       site: 'https://pavel-174.github.io/mesto-react/',
       git: 'https://github.com/Pavel-174/mesto-react',
       title: 'Mesto React',
@@ -183,7 +205,7 @@ function App() {
     },
     {
       id: '5',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/russian-travel.png?raw=true',
+      src: travel,
       site: 'https://pavel-174.github.io/russian-travel/',
       git: 'https://github.com/Pavel-174/russian-travel',
       title: 'Russian travel',
@@ -191,7 +213,7 @@ function App() {
     },
     {
       id: '6',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/how-to-learn.png?raw=true',
+      src: learn,
       site: 'https://pavel-174.github.io/how-to-learn/',
       git: 'https://github.com/Pavel-174/how-to-learn',
       title: 'How to learn',
@@ -199,7 +221,7 @@ function App() {
     },
     {
       id: '7',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/dr-norman.png?raw=true',
+      src: norman,
       site: 'https://pavel-174.github.io/norman-borlaug/',
       git: 'https://github.com/Pavel-174/norman-borlaug',
       title: 'Dr. Norman Borlaug',
@@ -207,7 +229,7 @@ function App() {
     },
     {
       id: '8',
-      src:'https://github.com/Pavel-174/my-portfolio/blob/master/src/images/mesto.png?raw=true',
+      src: mesto,
       site: 'https://pavel-174.github.io/mesto/',
       git: 'https://github.com/Pavel-174/mesto',
       title: 'Mesto',
