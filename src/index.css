@@ -12,24 +12,32 @@ code {
     monospace;
 }
 
-::-webkit-scrollbar {
-  width: 14px;
-  height: -90px;
-}
-::-webkit-scrollbar-thumb {
-  height: 6px;
-  border: 4px solid rgba(0, 0, 0, 0);
-  background-clip: padding-box;
-  -webkit-border-radius: 7px;
-  background-color: #fecd00;
-  -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
-    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
-}
-::-webkit-scrollbar-button {
-  width: 0;
-  height: 0;
-  display: none;
-}
-::-webkit-scrollbar-corner {
-  background-color: transparent;
-}
+@import url(./vendor/normalize.css);
+@import url(./vendor/scrollbar.css);
+
+@import url(./blocks/page/page.css);
+
+@import url(./blocks/contacts/contacts.css);
+
+@import url(./blocks/experience/experience.css);
+
+@import url(./blocks/footer/footer.css);
+
+@import url(./blocks/menu/menu.css);
+
+@import url(./blocks/portfolio/portfolio.css);
+
+@import url(./blocks/skills/skills.css);
+
+@import url(./blocks/promo/promo.css);
+
+@import url(./blocks/navbar/navbar.css);
+
+@import url(./blocks/about/about.css);
+
+@import url(./blocks/popup/__contacts/popup__contacts.css);
+
+@import url(./blocks/popup/__image/popup__image.css);
+
+
+

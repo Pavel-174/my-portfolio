@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter } from "react-router-dom";
-import '../App.css';
 import NavBar from './NavBar';
 import About from './About';
 import Menu from './Menu';
@@ -217,7 +216,7 @@ function App() {
   ]
   
   return (
-    <div className='app'>
+    <div className='page'>
       <BrowserRouter>
       <NavBar switchMenu={switchMenu}/>
       <main>

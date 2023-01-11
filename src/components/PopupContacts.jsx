@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import ContactsForm from "./ContactsForm";
 import ContactsConfirmSend from "./ContactsConfirmSend";
-import "../PopupContacts/PopupContacts.css";
 
 
 function PopupContacts({isOpen, onClose}){

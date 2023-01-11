@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import '../Portfolio/Portfolio.css';
 import Project from './Project';
 import { Link, animateScroll as scroll } from "react-scroll";
 

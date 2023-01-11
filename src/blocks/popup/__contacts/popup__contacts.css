@@ -210,7 +210,7 @@
 }
 
 .popup__close{
-    background: url("../images/Close\ Icon.svg") center;
+    background: url("../../../images/CloseIcon.svg") center;
     overflow: visible;
     border: none;
     background-repeat : no-repeat;
