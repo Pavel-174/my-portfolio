@@ -1,0 +1,10 @@
+.about__link {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration-line: underline;
+}
+
+.about__link:hover {
+  opacity: 0.4;
+  transition: 0.8s;
+}

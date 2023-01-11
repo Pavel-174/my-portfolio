@@ -2,6 +2,22 @@
 @import url(./vendor/scrollbar.css);
 @import url(./vendor/fonts/play.css);
 
+@import url(./blocks/promo/promo.css);
+
+/* Блок About */
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/__content-box/about__content-box.css);
+@import url(./blocks/about/__content/about__content.css);
+@import url(./blocks/about/__image/about__image.css);
+@import url(./blocks/about/__texts/about__texts.css);
+@import url(./blocks/about/__paragraph/about__paragraph.css);
+@import url(./blocks/about/__list-box/about__list-box.css);
+@import url(./blocks/about/__list/about__list.css);
+@import url(./blocks/about/__headers/about__headers.css);
+@import url(./blocks/about/__header/_2/about__header_2.css);
+@import url(./blocks/about/__header/_3/about__header_3.css);
+@import url(./blocks/about/__header/_4/about__header_4.css);
+
 @import url(./blocks/page/page.css);
 
 @import url(./blocks/contacts/contacts.css);
@@ -16,11 +32,7 @@
 
 @import url(./blocks/skills/skills.css);
 
-@import url(./blocks/promo/promo.css);
-
 @import url(./blocks/navbar/navbar.css);
-
-@import url(./blocks/about/about.css);
 
 @import url(./blocks/popup/__contacts/popup__contacts.css);
 

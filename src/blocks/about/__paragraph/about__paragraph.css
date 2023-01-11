@@ -1,0 +1,10 @@
+.about__paragraph {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  font-family: Play, Arial, Helvetica, sans-serif;
+}
+
+.about__paragraph:not(:first-child) {
+  padding: 10px 0 0 0;
+}

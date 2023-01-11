@@ -5,8 +5,8 @@ function About({title, subtitle}) {
     return (
       <div className='about'>
         <div className="about__headers">
-            <h3 className="about__header3">{title}</h3>
-            <h2 className="about__header2">{subtitle}</h2>
+            <h3 className="about__header_3">{title}</h3>
+            <h2 className="about__header_2">{subtitle}</h2>
         </div>
         <div className="about__content-box">
           <div className="about__content">
@@ -47,7 +47,7 @@ function About({title, subtitle}) {
                 буду рад сотрудничеству.
               </p>
               <div className="about__list-box">
-                <h4 className="about__list-header">Умею:</h4>
+                <h4 className="about__header_4">Умею:</h4>
                 <ul className="about__list">
                   <li className="about__list-items">Писать код на HTML, CSS и JavaScript в парадигме ООП;</li>
                   <li className="about__list-items">Создавать адаптивные интерфейсы для разных устройств;</li>
