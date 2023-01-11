@@ -4,6 +4,11 @@
     align-content: center;
 }
 
+.about__content-box {
+  display: flex;
+  justify-content: center;
+}
+
 .about__content {
     display: grid;
     grid-template-columns: auto auto;
@@ -12,7 +17,7 @@
     max-width: 80vw;
     padding-top: 40px;
     justify-content: space-evenly;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .about__image {
@@ -59,8 +64,12 @@
 
 .about__paragraph {
     margin: 0;
-    padding: 10px 0 0 0;
+    padding: 0;
     text-align: justify;
+}
+
+.about__paragraph:not(:first-child) {
+    padding: 10px 0 0 0;
 }
 
 .about__link {
@@ -110,8 +119,6 @@
         grid-column-start: 1;
         padding: 0;
         margin: 0 auto;
-        border: 2px 
-
     }
 
     .about__texts{

@@ -38,7 +38,7 @@
     list-style-type: none;
     grid-template-columns: auto auto auto;
     justify-items: center;
-    padding-top: 40px;
+    padding: 40px 0 0 0;
     column-gap: 10px;
     row-gap: 30px;
   }
@@ -130,6 +130,10 @@
   }
 
   @media screen and (min-width: 320px) and (max-width: 679px){
+    .portfolio {
+      margin: 0;
+    }
+    
     .portfolio__items {
         grid-template-columns: auto;
         margin: auto;
