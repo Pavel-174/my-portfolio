@@ -1,0 +1,14 @@
+.experience__item {
+  list-style-type: none;
+  padding-left: 2rem;
+  background-image: url(https://github.com/Pavel-174/my-portfolio/blob/master/src/images/Checkmark.png?raw=true);
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  line-height: 2;
+  padding-bottom: 30px;
+  max-width: 450px;
+}
+
+.experience__item:last-child {
+  padding-bottom: 0;
+}
