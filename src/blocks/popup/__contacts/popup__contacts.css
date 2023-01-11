@@ -4,7 +4,7 @@
     width: 358px;
     height: 27px;
     border: none;
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-family: Play, Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
@@ -82,7 +82,7 @@
 
 .popup__text-error{
     color: rgba(255, 0, 0, 1);
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-family: Play, Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
@@ -146,7 +146,7 @@
 .popup__header{
     padding: 34px 64px 0 36px;
     margin: 0;
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-family: Play, Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 900;
     line-height: 29px;

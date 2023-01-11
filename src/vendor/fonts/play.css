@@ -9,16 +9,3 @@
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Play';
-    src: url('Play-Bold.eot');
-    src: local('Play Bold'), local('Play-Bold'),
-        url('Play-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Play-Bold.woff2') format('woff2'),
-        url('Play-Bold.woff') format('woff'),
-        url('Play-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-

@@ -10,15 +10,19 @@
     padding: 0;
     font-size: 25px;
     margin-top: 10px;
-    font-family: Monaco, monospace;
+    font-family: Play, Arial, Helvetica, sans-serif;
   }
       
   .portfolio__header3 {
     margin: 0;
     padding-left: 50px;
     font-size: 20px;
-    font-family: Monaco, monospace;
+    font-family: Play, Arial, Helvetica, sans-serif;
     position: relative;
+  }
+
+  .portfolio__header5 {
+    font-family: Play, Arial, Helvetica, sans-serif;
   }
   
   .portfolio__header3:before {
@@ -115,6 +119,7 @@
     color: black;
     cursor: pointer;
     animation: fade-in 0.7s ease-in-out;
+    font-family: Play, Arial, Helvetica, sans-serif;
 }
 
 .portfolio__button:hover {

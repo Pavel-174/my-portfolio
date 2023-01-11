@@ -17,11 +17,11 @@
   height: 100vh;
   backdrop-filter: blur(2px);
   position: absolute;
-  left: 25%;
+  left: 30%;
 }
 
 .menu__content {
-  width: 25%;
+  width: 30%;
   height: 100%;
   background-color: black;
   display: flex;
@@ -37,15 +37,16 @@
   border-bottom: 5px solid #fecd00;
   width: 100%;
   text-align: center;
-  font-weight: bold;
+  font-family: Play, Arial, Helvetica, sans-serif;
+  padding: 0;
 }
 
 .menu__list-link {
   color: white;
   text-decoration: none;
   font-size:1.8rem;
-  font-weight: bold;
   cursor: pointer;
+  font-family: Play, Arial, Helvetica, sans-serif;
 }
 
 .menu__list-link:hover{
@@ -59,6 +60,7 @@
   list-style-type: none;
   gap: 15px;
   margin: 15px 0 0 0;
+  padding: 0;
 }
 
 .material-icons {

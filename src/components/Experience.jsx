@@ -22,7 +22,7 @@ function Experience({educations, works, title, subtitle}) {
             <h4 className="experience__header4">Работа и соревнования:</h4>
             {works.map(work =>
               <li className="experience__item" key={work.id}>
-                <h5>{work.title}</h5>
+                <h5 className="experience__header5">{work.title}</h5>
                 <p  className="experience__item-text">{work.text}</p>
               </li>
             )}
