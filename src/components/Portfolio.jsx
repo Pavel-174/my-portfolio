@@ -44,7 +44,7 @@ function Portfolio({projects, onCardClick, title, subtitle, id}) {
         </ul>
         <div className="portfolio__buttons">
           {!isExpanded ? (
-            <button className="portfolio__button" onClick={showMore}>Показать больше проетов</button>
+            <button className="portfolio__button" onClick={showMore}>Показать больше проектов</button>
           ) : ("")}
           {isExpanded ? (
              <Link
@@ -53,7 +53,7 @@ function Portfolio({projects, onCardClick, title, subtitle, id}) {
              duration={400}
              to={id}
              >
-              <button className="portfolio__button" onClick={showLess}>Показать меньше проетов</button>
+              <button className="portfolio__button" onClick={showLess}>Показать меньше проектов</button>
             </Link>
           ) : ("")}
         </div>

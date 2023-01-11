@@ -14,12 +14,6 @@
   padding: 0;
 }
 
-
-.experience__content {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
 .experience__header2 {
   margin: 0;
   padding: 0;
@@ -77,6 +71,8 @@
 
 .experience__item-text {
   margin: 0;
+  text-align: justify;
+
 }
   
 @media screen and (min-width: 320px) and (max-width: 900px){

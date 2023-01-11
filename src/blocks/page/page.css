@@ -1,5 +1,16 @@
 .page {
   padding: 0px;
-  max-width: 100vw;
+  max-width: 1440px;
+  margin: 0 auto;
   max-height: max-content;
+}
+
+@media screen and (min-width: 1445px) {
+  .page {
+    border-left: 2px solid #fecd00;
+  }
+
+  .page {
+    border-right: 2px solid #fecd00;
+  }
 }
