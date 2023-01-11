@@ -4,6 +4,17 @@
   padding-top: 70px;
 }
 
+.experience__education {
+  margin: 0;
+  padding: 0;
+}
+
+.experience__work {
+  margin: 0;
+  padding: 0;
+}
+
+
 .experience__content {
   display: grid;
   grid-template-columns: auto auto;
