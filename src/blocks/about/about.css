@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    gap: 30px;
+    grid-column-gap: 30px;
     max-width: 80vw;
     padding-top: 40px;
     justify-content: space-evenly;
