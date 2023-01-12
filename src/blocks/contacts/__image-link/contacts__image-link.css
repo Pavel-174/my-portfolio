@@ -1,0 +1,10 @@
+.contacts__image-link {
+  max-width: 50px;
+  max-height: 50px;
+  margin-top: 55px;
+}
+
+.contacts__image-link:hover {
+  opacity: 0.6;
+  transition: 0.8s;
+}

@@ -63,7 +63,20 @@
 @import url(./blocks/portfolio/__buttons/portfolio__buttons.css);
 @import url(./blocks/portfolio/__button/portfolio__button.css);
 
+/* Блок Contacts */
 @import url(./blocks/contacts/contacts.css);
+@import url(./blocks/contacts/__headers/contacts__headers.css);
+@import url(./blocks/contacts/__header/_2/contacts__header_2.css);
+@import url(./blocks/contacts/__header/_3/contacts__header_3.css);
+@import url(./blocks/contacts/__header/_4/contacts__header_4.css);
+@import url(./blocks/contacts/__content/contacts__content.css);
+@import url(./blocks/contacts/__link-box/contacts__link-box.css);
+@import url(./blocks/contacts/__image-link/contacts__image-link.css);
+@import url(./blocks/contacts/__button/contacts__button.css);
+@import url(./blocks/contacts/__info-box/contacts__info-box.css);
+@import url(./blocks/contacts/__frame/contacts__frame.css);
+@import url(./blocks/contacts/__photo/contacts__photo.css);
+
 
 @import url(./blocks/footer/footer.css);
 

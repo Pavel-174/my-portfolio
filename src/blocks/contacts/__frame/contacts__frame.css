@@ -1,0 +1,19 @@
+.contacts__frame {
+  border: #fecd00 2px solid;
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px){
+  .contacts__frame {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 660px;
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 330px){
+  .contacts__frame{
+    width: 300px;
+    height: 300px;  
+  }
+}

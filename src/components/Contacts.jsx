@@ -9,13 +9,13 @@ const Contacts = ({onSendForm, title, subtitle}) => {
   return (
     <div className='contacts'>
       <div className="contacts__headers">
-        <h3 className="contacts__header3">{title}</h3>
-        <h2 className="contacts__header2">{subtitle}</h2>
+        <h3 className="contacts__header_3">{title}</h3>
+        <h2 className="contacts__header_2">{subtitle}</h2>
       </div>
       <div className='contacts__content'>
         <img className='contacts__photo' src={photo} alt="на фото Павел Алексеев"></img>
         <div className='contacts__info-box'>
-          <h4 className="contacts__header4">Любым удобным вам способом:</h4>
+          <h4 className="contacts__header_4">Любым удобным вам способом:</h4>
           <div className='contacts__link-box'>
             <a href="https://github.com/Pavel-174"><img className='contacts__image-link' src={git}></img></a>
             <a href="https://www.linkedin.com/in/павел-алексеев/"><img className='contacts__image-link' src={linkedin}></img></a>

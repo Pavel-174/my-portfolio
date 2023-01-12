@@ -1,0 +1,22 @@
+.contacts__button {
+  margin: 40px 0 0 0;
+  padding: 0;
+  width: 180px;
+  height: 50px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 10px;
+  background-image: linear-gradient(135deg, wheat 0,#fecd00 100%);
+  color: black;
+  cursor: pointer;
+  font-family: Play, Arial, Helvetica, sans-serif;
+}
+  
+.contacts__button:hover {
+  opacity: 0.4;
+  transition: 0.8s;
+}

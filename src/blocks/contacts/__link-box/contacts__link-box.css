@@ -1,0 +1,5 @@
+.contacts__link-box {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
