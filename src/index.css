@@ -77,8 +77,11 @@
 @import url(./blocks/contacts/__frame/contacts__frame.css);
 @import url(./blocks/contacts/__photo/contacts__photo.css);
 
-
+/* Блок Footer */
 @import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__list-link/footer__list-link.css);
+@import url(./blocks/footer/__list/footer__list.css);
+@import url(./blocks/footer/__text/footer__text.css);
 
 @import url(./blocks/menu/menu.css);
 

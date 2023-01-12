@@ -1,0 +1,17 @@
+.footer__list-link {
+  cursor: pointer;
+  color: white;
+  font-size: x-large;
+  font-family: Play, Arial, Helvetica, sans-serif;
+}
+
+.footer__list-link:hover {
+  opacity: 0.4;
+  transition: 0.7s;
+}
+
+@media screen and (min-width: 320px) and (max-width: 650px){
+  .footer__list-link {
+    font-size: xx-large;
+  }
+}
