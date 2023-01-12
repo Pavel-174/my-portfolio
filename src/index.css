@@ -4,8 +4,13 @@
 
 @import url(./blocks/page/page.css);
 
+/* Блок NavBar */
 @import url(./blocks/navbar/navbar.css);
+@import url(./blocks/navbar/__btn/navbar__btn.css);
+@import url(./blocks/navbar/__header/_h2/nav__header_h2.css);
 
+
+/* Блок Promo  ___НЕ ГОТОВ!!! */
 @import url(./blocks/promo/promo.css);
 
 /* Блок About */
