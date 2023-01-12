@@ -1,0 +1,12 @@
+.menu__list-link {
+  color: white;
+  text-decoration: none;
+  font-size:1.8rem;
+  cursor: pointer;
+  font-family: Play, Arial, Helvetica, sans-serif;
+}
+  
+.menu__list-link:hover{
+  opacity: 0.4;
+  transition: 0.8s;
+}

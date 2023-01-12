@@ -83,7 +83,14 @@
 @import url(./blocks/footer/__list/footer__list.css);
 @import url(./blocks/footer/__text/footer__text.css);
 
+/* Блок Menu */
 @import url(./blocks/menu/menu.css);
+@import url(./blocks/menu/_active/menu_active.css);
+@import url(./blocks/menu/__blur/menu__blur.css);
+@import url(./blocks/menu/__content/menu__content.css);
+@import url(./blocks/menu/__header/menu__header.css);
+@import url(./blocks/menu/__list-link/menu__list-link.css);
+@import url(./blocks/menu/__list/menu__list.css);
 
 @import url(./blocks/popup/__contacts/popup__contacts.css);
 

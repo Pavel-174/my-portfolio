@@ -4,8 +4,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Menu = ({header, items, active, setActive}) => {
 
     return (
-        <div className={active ? 'menu active' : 'menu'} onClick={() => setActive(false)}>
-            <div className="blur"/>
+        <div className={active ? 'menu menu_active' : 'menu'} onClick={() => setActive(false)}>
+            <div className="menu__blur"/>
             <div className="menu__content">
                 <div className="menu__header">{header}</div>
                 <ul className="menu__list">
