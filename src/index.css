@@ -46,7 +46,22 @@
 @import url(./blocks/skills/__content-text/skills__content-text.css);
 @import url(./blocks/skills/__content-image/skills__content-image.css);
 
+/* Блок Portfolio */
 @import url(./blocks/portfolio/portfolio.css);
+@import url(./blocks/portfolio/__headers/portfolio__headers.css);
+@import url(./blocks/portfolio/__header/_2/portfolio__header_2.css);
+@import url(./blocks/portfolio/__header/_3/portfolio__header_3.css);
+@import url(./blocks/portfolio/__header/_5/portfolio__header_5.css);
+@import url(./blocks/portfolio/__items/portfolio__items.css);
+@import url(./blocks/portfolio/__item/portfolio__item.css);
+@import url(./blocks/portfolio/__item/_fade/portfolio__item_fade.css);
+@import url(./blocks/portfolio/__item/_fade-in/portfolio__item_fade-in.css);
+@import url(./blocks/portfolio/__icon/_git/portfolio__icon_git.css);
+@import url(./blocks/portfolio/__img/portfolio__img.css);
+@import url(./blocks/portfolio/__links/portfolio__links.css);
+@import url(./blocks/portfolio/__link/portfolio__link.css);
+@import url(./blocks/portfolio/__buttons/portfolio__buttons.css);
+@import url(./blocks/portfolio/__button/portfolio__button.css);
 
 @import url(./blocks/contacts/contacts.css);
 

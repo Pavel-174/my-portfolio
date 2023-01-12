@@ -24,8 +24,8 @@ function Portfolio({projects, onCardClick, title, subtitle, id}) {
     return (
       <div className='portfolio'>
         <div className="portfolio__headers">
-            <h3 className="portfolio__header3">{title}</h3>
-            <h2 className="portfolio__header2">{subtitle}</h2>
+            <h3 className="portfolio__header_3">{title}</h3>
+            <h2 className="portfolio__header_2">{subtitle}</h2>
         </div>
         <ul className="portfolio__items">
             {activeItems.map(project =>

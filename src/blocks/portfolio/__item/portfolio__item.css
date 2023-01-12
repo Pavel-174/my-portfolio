@@ -1,0 +1,5 @@
+.portfolio__item {
+  cursor: pointer;
+  border: #fecd00 3px solid;
+  padding: 5px;
+}

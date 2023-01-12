@@ -1,0 +1,7 @@
+.portfolio__links {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  justify-content: space-evenly;
+  align-items: center;
+}

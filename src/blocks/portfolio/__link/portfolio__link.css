@@ -1,0 +1,4 @@
+.portfolio__link:hover {
+  opacity: 0.3;
+  transition: 0.8s;
+}

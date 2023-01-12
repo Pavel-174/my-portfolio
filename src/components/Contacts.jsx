@@ -21,7 +21,7 @@ const Contacts = ({onSendForm, title, subtitle}) => {
             <a href="https://www.linkedin.com/in/павел-алексеев/"><img className='contacts__image-link' src={linkedin}></img></a>
             <a href="https://t.me/alekseevps93/"><img className='contacts__image-link' src={telegram}></img></a>
           </div>
-          <button className='contacts__button' onClick={onSendForm}>Форма обратной связи</button>
+          <button className='contacts__button' onClick={onSendForm}>Форма обратной<br/> связи</button>
         </div>
         <iframe className='contacts__frame' src="https://yandex.ru/map-widget/v1/?um=constructor%3A7eab4a1b44118a193c4a8ac721bdcde91571a5bd4c4336b1d5af0b7e57475015&amp;source=constructor" width="320" height="320" frameBorder="0"></iframe>
       </div>
