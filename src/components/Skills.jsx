@@ -5,8 +5,8 @@ function Skills({skills, title, subtitle}) {
     return (
       <div className='skills'>
         <div className="skills__headers">
-          <h3 className="skills__header3">{title}</h3>
-          <h2 className="skills__header2">{subtitle}</h2>
+          <h3 className="skills__header_3">{title}</h3>
+          <h2 className="skills__header_2">{subtitle}</h2>
         </div>
         <div className="skills__box">
           {skills.map(skill =>

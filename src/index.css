@@ -36,7 +36,15 @@
 @import url(./blocks/experience/__item/experience__item.css);
 @import url(./blocks/experience/__item-text/experience__item-text.css);
 
+/* Блок Skills */
 @import url(./blocks/skills/skills.css);
+@import url(./blocks/skills/__headers/skills__headers.css);
+@import url(./blocks/skills/__header/_2/skills__header_2.css);
+@import url(./blocks/skills/__header/_3/skills__header_3.css);
+@import url(./blocks/skills/__box/skills__box.css);
+@import url(./blocks/skills/__content/skills__content.css);
+@import url(./blocks/skills/__content-text/skills__content-text.css);
+@import url(./blocks/skills/__content-image/skills__content-image.css);
 
 @import url(./blocks/portfolio/portfolio.css);
 

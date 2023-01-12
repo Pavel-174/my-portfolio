@@ -1,0 +1,7 @@
+.skills__content {
+  display: grid;
+  flex-direction: column;
+  max-width: 270px;
+  justify-items: center;
+  border: 1px solid;
+}
