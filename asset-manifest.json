@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b415d694.css",
-    "main.js": "/static/js/main.846e10b3.js",
+    "main.css": "/static/css/main.5c8d34d1.css",
+    "main.js": "/static/js/main.9f465fd7.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/dr-norman.png": "/static/media/dr-norman.8487c529828f6198fde2.png",
     "static/media/mesto.png": "/static/media/mesto.1138cfc83e446eb86637.png",
@@ -28,12 +28,12 @@
     "static/media/JS.svg": "/static/media/JS.656b841c79fca81fe0cd5e69458ae05b.svg",
     "static/media/globe.svg": "/static/media/globe.989d00a4d3a72ea55a03fa36de2606ba.svg",
     "static/media/CloseIcon.svg": "/static/media/CloseIcon.039f1f5203f653b4bacd.svg",
-    "main.b415d694.css.map": "/static/css/main.b415d694.css.map",
-    "main.846e10b3.js.map": "/static/js/main.846e10b3.js.map",
+    "main.5c8d34d1.css.map": "/static/css/main.5c8d34d1.css.map",
+    "main.9f465fd7.js.map": "/static/js/main.9f465fd7.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b415d694.css",
-    "static/js/main.846e10b3.js"
+    "static/css/main.5c8d34d1.css",
+    "static/js/main.9f465fd7.js"
   ]
 }
