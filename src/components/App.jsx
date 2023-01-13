@@ -85,7 +85,7 @@ function App() {
       <main>
         <Promo id="promo" selectedLanguage={selectedLanguage}/>
         <About id='about' abilitys={abilitys} abilitys_eng={abilitys_eng} selectedLanguage={selectedLanguage}/>
-        <Experience id='experience' experience={experience} educations={educations} works={works}/>
+        <Experience id='experience' educations={educations} educations_eng={educations_eng} works={works} works_eng={works_eng} selectedLanguage={selectedLanguage}/>
         <Skills id='skills' skills={skills} title="Мои навыки" subtitle="Что я использую в работе"/>
         <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick} title="Портфолио" subtitle="Мои работы"/>
         <Contacts id='contacts' onSendForm={handlePopupContactsClick} title="Контакты" subtitle="Свяжитесь со мной"/>

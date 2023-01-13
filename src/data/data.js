@@ -48,13 +48,6 @@ export const abilitys = [
   ]
 
 // данные для раздела Experience колонки Образование
-export const experience ={
-  title: "Опыт", 
-  subtitle: "Чем я буду полезен",
-  education: "Образование:",
-  work: "Работа и соревнования:"
-}
-
 export const educations = [
     { 
       id: '3',

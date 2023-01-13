@@ -51,18 +51,18 @@ export const abilitys_eng = [
 export const educations_eng = [
     { 
       id: '3',
-      title: 'Курсы Яндекс.Практикум (2022-2023)',
-      text: 'Специальность: Web-разработчик'
+      title: 'Educational course Yandex.Practicum (2022-2023)',
+      text: 'Profession: Web-developer'
     },
     {
       id: '2',
-      title: 'Курс Free Code Camp (2022)',
-      text: 'Responsive Web Design Certification. Начал изучать html и css и сделал первую проектную работу.'
+      title: 'Educational course Free Code Camp (2022)',
+      text: 'Responsive Web Design Certification.'
     },
     { 
       id: '1',
-      title: 'ЮУрГУ (2016-2021)',
-      text: 'Специальность: Туризм, бакалавр'
+      title: 'SUSU (2016-2021)',
+      text: "Profession: Tourism, Bachelor's degree"
     },
   ]
 
@@ -70,8 +70,8 @@ export const educations_eng = [
 export const works_eng = [
     {
       id: '1',
-      title: 'Хакатон Яндекса (2022)',
-      text: 'Участвовал в совместном хакатоне студентов курсов «Дизайнер интерфейсов» и «Веб-разработчик» по разработке лендинга для HR-команды Практикума'
+      title: 'Yandex Hackathon (2022)',
+      text: 'Participated in a joint hackathon of students of the courses "Interface Designer" and "Web developer" to develop a landing page for the HR team of Yandex.Practicum'
     }
   ]
   
