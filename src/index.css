@@ -10,7 +10,7 @@
 @import url(./blocks/navbar/__header/_h2/nav__header_h2.css);
 
 
-/* Блок Promo  ___НЕ ГОТОВ!!! */
+/* Блок Promo */
 @import url(./blocks/promo/promo.css);
 @import url(./blocks/promo/__wave/promo__wave.css);
 @import url(./blocks/promo/__content/promo__content.css);
