@@ -1,0 +1,42 @@
+.promo__mouse {
+  border: 2px solid rgb(1, 1, 1);
+  border-radius: 13px;
+  bottom: 40px;
+  display: block;
+  height: 46px;
+  left: 50%;
+  margin: 0 auto 0 -26px;
+  position: absolute;
+  width: 26px;
+}
+
+.promo__mouse span {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  background: none repeat scroll 0 0 rgb(1, 1, 1);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: block;
+  height: 4px;
+  margin: 6px auto;
+  width: 4px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+  .promo__mouse {
+    display: none;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}

@@ -1,0 +1,13 @@
+.promo__subtitle {
+  color: rgb(1, 1, 1);
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Play, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+  .promo__subtitle {
+    font-size: 20px;
+  }
+}

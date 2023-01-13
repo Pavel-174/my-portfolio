@@ -1,0 +1,16 @@
+.promo__header {
+  color: rgb(1, 1, 1);
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Play, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+  .promo__header {
+    font-size: 30px;
+    margin-top: 70px;
+  }
+}

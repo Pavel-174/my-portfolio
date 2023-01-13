@@ -12,6 +12,11 @@
 
 /* Блок Promo  ___НЕ ГОТОВ!!! */
 @import url(./blocks/promo/promo.css);
+@import url(./blocks/promo/__wave/promo__wave.css);
+@import url(./blocks/promo/__content/promo__content.css);
+@import url(./blocks/promo/__header/promo__header.css);
+@import url(./blocks/promo/__subtitle/promo__subtitle.css);
+@import url(./blocks/promo/__mouse/promo__mouse.css);
 
 /* Блок About */
 @import url(./blocks/about/about.css);

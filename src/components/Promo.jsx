@@ -3,10 +3,10 @@ import React from "react";
 const Promo = ({title, subtitle}) => {
     return (
         <div className="promo">
-          <div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
+          <div className="promo__waves">
+            <div className="promo__wave"></div>
+            <div className="promo__wave"></div>
+            <div className="promo__wave"></div>
           </div>
           <div className="promo__content">
             <h1 className="promo__header">{title}</h1>
@@ -14,7 +14,7 @@ const Promo = ({title, subtitle}) => {
           </div>
           <div className="promo__mouse">
             <span></span>
-           </div>
+          </div>
         </div>
     );
 };
