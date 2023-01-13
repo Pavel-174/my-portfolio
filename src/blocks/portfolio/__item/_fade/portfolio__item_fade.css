@@ -1,4 +1,4 @@
-.portfolio__item_fade:nth-child(n+4) {
+.portfolio__item_fade:nth-child(n+7) {
   animation: fade 1s ease forwards;
 }
 

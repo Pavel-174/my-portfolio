@@ -1,7 +1,7 @@
 .contacts {
   display: flex;
   flex-direction: column;
-  margin: 0px 40px 40px 40px;
+  margin: 0px 40px 100px 40px;
   max-width: 100vw;
   padding-top: 70px;
 }
@@ -9,5 +9,11 @@
 @media screen and (min-width: 320px) and (max-width: 330px){
   .contacts {
     margin: 0px 0px 40px 0px;
+  }
+}
+
+@media screen and (min-width: 331px) and (max-width: 900px){
+  .contacts {
+    margin: 0px 40px 40px 40px;
   }
 }
