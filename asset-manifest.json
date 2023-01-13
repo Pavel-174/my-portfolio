@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f459a042.css",
+    "main.css": "/static/css/main.8bc5f609.css",
     "main.js": "/static/js/main.90b8d606.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/dr-norman.png": "/static/media/dr-norman.8487c529828f6198fde2.png",
@@ -29,12 +29,12 @@
     "static/media/globe.svg": "/static/media/globe.989d00a4d3a72ea55a03fa36de2606ba.svg",
     "static/media/Flag_of_Russia.svg.webp": "/static/media/Flag_of_Russia.svg.c54cece37e35e8659434.webp",
     "static/media/CloseIcon.svg": "/static/media/CloseIcon.039f1f5203f653b4bacd.svg",
-    "main.f459a042.css.map": "/static/css/main.f459a042.css.map",
+    "main.8bc5f609.css.map": "/static/css/main.8bc5f609.css.map",
     "main.90b8d606.js.map": "/static/js/main.90b8d606.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f459a042.css",
+    "static/css/main.8bc5f609.css",
     "static/js/main.90b8d606.js"
   ]
 }
