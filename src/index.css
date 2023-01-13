@@ -7,7 +7,8 @@
 /* Блок NavBar */
 @import url(./blocks/navbar/navbar.css);
 @import url(./blocks/navbar/__btn/navbar__btn.css);
-@import url(./blocks/navbar/__language-button/nav__language-button.css);
+@import url(./blocks/navbar/__language-button/navbar__language-button.css);
+@import url(./blocks/navbar/__flag/navbar__flag.css);
 
 
 /* Блок Promo */
