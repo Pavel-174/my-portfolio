@@ -1,0 +1,5 @@
+.popup__form_confirmation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,8 @@
+.popup__save_valid {
+  background-image: linear-gradient(135deg, wheat 0,#fecd00 100%);
+  color: black;
+}
+.popup__save_valid:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
