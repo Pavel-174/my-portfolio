@@ -1,6 +1,7 @@
 .popup__link {
   color: #007bff;;
   padding-left: 5px;
+  font-family: Play, Arial, Helvetica, sans-serif;
 }
 
 .popup__link:hover {
