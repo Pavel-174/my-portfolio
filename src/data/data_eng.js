@@ -18,29 +18,29 @@ import learn from '../images/how-to-learn.png';
 import norman from '../images/dr-norman.png';
  
 // данные для бургер-меню
-export const items = [
-    {id: '1', value:'Главная', href:'promo'}, 
-    {id: '2', value:'Про меня', href:'about'},
-    {id: '3', value:'Опыт', href:'experience'},
-    {id: '4', value:'Навыки', href:'skills'},
-    {id: '5', value:'Портфолио', href:'portfolio'},
-    {id: '6', value:'Контакты', href:'contacts'}
+export const items_eng = [
+    {id: '1', value:'Main', href:'promo'}, 
+    {id: '2', value:'About me', href:'about'},
+    {id: '3', value:'Experience', href:'experience'},
+    {id: '4', value:'Skills', href:'skills'},
+    {id: '5', value:'Portfolio', href:'portfolio'},
+    {id: '6', value:'Contacts', href:'contacts'}
   ]
 // данные для раздела Promo
-export const promo =
+export const promo_eng =
 {
-  title: "Павел Алексеев",
+  title: "Pavel Alekseev",
   subtitle: "Front-end developer"
 }
 
 // данные для раздела About
-export const about = {
+export const about_eng = {
   title: "Про меня",
   subtitle: "Меня зовут Павел Алексеев",
   header: 'Умею:'
 }
 
-export const abilitys = [
+export const abilitys_eng = [
     {
       id: '1',
       text: 'Писать код на HTML, CSS и JavaScript в парадигме ООП;'
@@ -60,14 +60,14 @@ export const abilitys = [
   ]
 
 // данные для раздела Experience колонки Образование
-export const experience ={
+export const experience_eng ={
   title: "Опыт", 
   subtitle: "Чем я буду полезен",
   education: "Образование:",
   work: "Работа и соревнования:"
 }
 
-export const educations = [
+export const educations_eng = [
     { 
       id: '3',
       title: 'Курсы Яндекс.Практикум (2022-2023)',
@@ -87,7 +87,7 @@ export const educations = [
 
   // данные для раздела Experience колонки Работа и соревнования
 
-export const works = [
+export const works_eng = [
     {
       id: '1',
       title: 'Хакатон Яндекса (2022)',
@@ -97,7 +97,7 @@ export const works = [
   
   //данные для раздела Skills
 
-export const skills = [
+export const skills_eng = [
     {
       id: '1',
       image: html5,
@@ -150,7 +150,7 @@ export const skills = [
 
   //данные для раздела Projects
 
-export const projects = [
+export const projects_eng = [
     {
       id: '1', 
       src: portfolio,

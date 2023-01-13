@@ -1,13 +1,13 @@
 import React from "react";
 
-function NavBar({switchMenu}) {
+function NavBar({switchMenu, showEng, selectedLanguage}) {
 
     return (
       <nav className="navbar">
         <div className='navbar__btn' onClick={switchMenu}>
           <span/>
         </div>
-        <h2 className='nav__header_h2'>Eng</h2>
+        <span className='nav__language-button' onClick={showEng}>{!selectedLanguage ? ("Eng") : ("Ru")}</span>
       </nav>
     );
   }

@@ -2,12 +2,12 @@ import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import photo from '../images/my-photo2.jpg'
 
-function About({title, subtitle, abilitys}) {
+function About({about, abilitys}) {
     return (
       <div className='about'>
         <div className="about__headers">
-            <h3 className="about__header_3">{title}</h3>
-            <h2 className="about__header_2">{subtitle}</h2>
+            <h3 className="about__header_3">{about.title}</h3>
+            <h2 className="about__header_2">{about.subtitle}</h2>
         </div>
         <div className="about__content-box">
           <div className="about__content">
@@ -48,7 +48,7 @@ function About({title, subtitle, abilitys}) {
                 буду рад сотрудничеству.
               </p>
               <div className="about__list-box">
-                <h4 className="about__header_4">Умею:</h4>
+                <h4 className="about__header_4">{about.header}</h4>
                 <ul className="about__list">
                   {abilitys.map(ability =>
                     <li className="about__list-items" key={ability.id}>{ability.text}</li>

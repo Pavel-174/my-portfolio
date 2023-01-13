@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 
-const Footer = ({items}) => {   
+const Footer = ({items, items_eng, selectedLanguage}) => {   
 
   return (
     <footer className='footer'>
       <ul className="footer__list">
-                    {items.map(item =>
+                    {(!selectedLanguage ? (items) : (items_eng)).map(item =>
                         <li className="footer__list-item" key={item.id}>
                           <Link className="footer__list-link"
                           smooth={true}

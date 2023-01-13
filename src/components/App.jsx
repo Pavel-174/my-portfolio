@@ -12,20 +12,39 @@ import Contacts from './Contacts';
 import PopupContacts from './PopupContacts';
 import Footer from './Footer';
 // импорты массивов с данными
-import { items } from '../data/data';
+import { promo } from '../data/data';
+import { about } from '../data/data';
 import { abilitys } from '../data/data';
+import { experience } from '../data/data';
 import { educations } from '../data/data';
 import { works } from '../data/data';
 import { skills } from '../data/data';
 import { projects } from '../data/data';
+import { items } from '../data/data';
+// импорты массивов с данными Eng
+import { promo_eng } from '../data/data_eng';
+import { about_eng } from '../data/data_eng';
+import { abilitys_eng } from '../data/data_eng';
+import { experience_eng } from '../data/data_eng';
+import { educations_eng } from '../data/data_eng';
+import { works_eng } from '../data/data_eng';
+import { skills_eng } from '../data/data_eng';
+import { projects_eng } from '../data/data_eng';
+import { items_eng } from '../data/data_eng';
 
 function App() {
+
+  const [selectedLanguage, setSelectedLanguage] = useState(false);
 
   const [menuActive, setMenuActive] = useState(false);
 
   const [selectedCard, setSelectedCard] = useState(null);
 
   const [isPopupContactsOpened, setIsPopupContactsOpened] = useState(false)
+
+  function showEng() {
+    setSelectedLanguage(!selectedLanguage);
+  }
 
   function closeAll() {
     setMenuActive(false);
@@ -64,17 +83,17 @@ function App() {
   return (
     <div className='page'>
       <BrowserRouter>
-      <NavBar switchMenu={switchMenu}/>
+      <NavBar switchMenu={switchMenu} selectedLanguage={selectedLanguage} showEng={showEng}/>
       <main>
-        <Promo id="promo" title="Павел Алексеев" subtitle="Front-end developer"/>
-        <About id='about' abilitys={abilitys} title="Про меня" subtitle="Меня зовут Павел Алексеев"/>
-        <Experience id='experience' educations={educations} works={works} title="Опыт" subtitle="Чем я буду полезен"/>
+        <Promo id="promo" promo={promo} promo_eng={promo_eng} selectedLanguage={selectedLanguage}/>
+        <About id='about' abilitys={abilitys} about={about}/>
+        <Experience id='experience' experience={experience} educations={educations} works={works}/>
         <Skills id='skills' skills={skills} title="Мои навыки" subtitle="Что я использую в работе"/>
         <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick} title="Портфолио" subtitle="Мои работы"/>
         <Contacts id='contacts' onSendForm={handlePopupContactsClick} title="Контакты" subtitle="Свяжитесь со мной"/>
       </main>
-      <Footer items={items}/>
-      <Menu active={menuActive} setActive={setMenuActive} header={"Карта сайта"} items={items}/>
+      <Footer items={items} items_eng={items_eng} selectedLanguage={selectedLanguage}/>
+      <Menu active={menuActive} setActive={setMenuActive} items={items} items_eng={items_eng} selectedLanguage={selectedLanguage}/>
       <ImagePopup 
         project={selectedCard}
         onClose={closeAll}
