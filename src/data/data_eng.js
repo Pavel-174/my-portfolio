@@ -71,7 +71,7 @@ export const works_eng = [
     {
       id: '1',
       title: 'Yandex Hackathon (2022)',
-      text: 'Participated in a joint hackathon of students of the courses "Interface Designer" and "Web developer" to develop a landing page for the HR team of Yandex.Practicum'
+      text: 'Participated in the hackathon of students of the courses "Interface Designer" and "Web developer" to develop a landing page for the HR team of Yandex.Practicum'
     }
   ]
   

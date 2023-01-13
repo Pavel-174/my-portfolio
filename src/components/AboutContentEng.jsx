@@ -23,7 +23,7 @@ function AboutContentEng() {
           I am open to suggestions for the position of a frontend developer, where I can contribute and develop together with the company.
         </p>
         <p className="about__paragraph">
-        If you have a vacancy that matches my skills and experience, do not hesitate to&nbsp;
+        If you have a vacancy that matches my skills and experience do not hesitate to&nbsp;
           <Link 
             smooth={true} 
             offset={0} 
@@ -32,7 +32,7 @@ function AboutContentEng() {
             className="about__link"
           >
             contact me
-          </Link>, I will be glad to cooperate.
+          </Link>. I will be glad to cooperate.
         </p>
     </div>
   );
