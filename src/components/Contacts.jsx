@@ -17,9 +17,9 @@ const Contacts = ({onSendForm, selectedLanguage}) => {
         <div className='contacts__info-box'>
           <h4 className="contacts__header_4">{!selectedLanguage ? ("Любым удобным вам способом:") : ("In any way convenient to you:")}</h4>
           <div className='contacts__link-box'>
-            <a href="https://github.com/Pavel-174"><img className='contacts__image-link' src={git}></img></a>
-            <a href="https://www.linkedin.com/in/павел-алексеев/"><img className='contacts__image-link' src={linkedin}></img></a>
-            <a href="https://t.me/alekseevps93/"><img className='contacts__image-link' src={telegram}></img></a>
+            <a href="https://github.com/Pavel-174"><img className='contacts__image-link' src={git} alt={!selectedLanguage ? ("логотип GitHub") : ("logo GitHub")}></img></a>
+            <a href="https://www.linkedin.com/in/павел-алексеев/"><img className='contacts__image-link' src={linkedin} alt={!selectedLanguage ? ("логотип Linkedin") : ("logo Linkedin")}></img></a>
+            <a href="https://t.me/alekseevps93/"><img className='contacts__image-link' src={telegram} alt={!selectedLanguage ? ("логотип Telegram") : ("logo Telegram")}></img></a>
           </div>
           <button className='contacts__button' onClick={onSendForm}>{!selectedLanguage ? ("Форма обратной связи") : ("Contact form")}</button>
         </div>
