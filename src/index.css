@@ -28,6 +28,7 @@
 @import url(./blocks/about/__content/about__content.css);
 @import url(./blocks/about/__image/about__image.css);
 @import url(./blocks/about/__texts/about__texts.css);
+@import url(./blocks/about/__link/about__link.css);
 @import url(./blocks/about/__paragraph/about__paragraph.css);
 @import url(./blocks/about/__list-box/about__list-box.css);
 @import url(./blocks/about/__list/about__list.css);

@@ -86,6 +86,27 @@ function App() {
     {id: '6', value:'Контакты', href:'contacts'}
   ]
 
+  // данные для раздела About
+
+  const abilitys = [
+    {
+      id: '1',
+      text: 'Писать код на HTML, CSS и JavaScript в парадигме ООП;'
+    },
+    {
+      id: '2',
+      text: 'Создавать адаптивные интерфейсы для разных устройств;'
+    },
+    {
+      id: '3',
+      text: 'Разрабатывать сайты и веб-приложения на React;'
+    },
+    {
+      id: '4',
+      text: 'Писать простой back-end на Node.js;'
+    },
+  ]
+
   // данные для раздела Experience колонки Образование
 
   const educations = [
@@ -243,7 +264,7 @@ function App() {
       <NavBar switchMenu={switchMenu}/>
       <main>
         <Promo id="promo" title="Павел Алексеев" subtitle="Front-end developer"/>
-        <About id='about' title="Про меня" subtitle="Меня зовут Павел Алексеев"/>
+        <About id='about' abilitys={abilitys} title="Про меня" subtitle="Меня зовут Павел Алексеев"/>
         <Experience id='experience' educations={educations} works={works} title="Опыт" subtitle="Чем я буду полезен"/>
         <Skills id='skills' skills={skills} title="Мои навыки" subtitle="Что я использую в работе"/>
         <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick} title="Портфолио" subtitle="Мои работы"/>

@@ -2,7 +2,7 @@ import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import photo from '../images/my-photo2.jpg'
 
-function About({title, subtitle}) {
+function About({title, subtitle, abilitys}) {
     return (
       <div className='about'>
         <div className="about__headers">
@@ -50,10 +50,9 @@ function About({title, subtitle}) {
               <div className="about__list-box">
                 <h4 className="about__header_4">Умею:</h4>
                 <ul className="about__list">
-                  <li className="about__list-items">Писать код на HTML, CSS и JavaScript в парадигме ООП;</li>
-                  <li className="about__list-items">Создавать адаптивные интерфейсы для разных устройств;</li>
-                  <li className="about__list-items">Разрабатывать сайты и веб-приложения на React;</li>
-                  <li className="about__list-items">Писать простой back-end на Node.js;</li>
+                  {abilitys.map(ability =>
+                    <li className="about__list-items" key={ability.id}>{ability.text}</li>
+                  )}
                 </ul>
               </div>
             </div>
