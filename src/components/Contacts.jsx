@@ -13,7 +13,7 @@ const Contacts = ({onSendForm, selectedLanguage}) => {
         <h3 className="contacts__header_3">{!selectedLanguage ? ("Свяжитесь со мной") : ("Contact me")}</h3>
       </div>
       <div className='contacts__content'>
-        <img className='contacts__photo' src={photo} alt="на фото Павел Алексеев"></img>
+        <img className='contacts__photo' src={photo} alt={!selectedLanguage ? ("на фото Павел Алексеев") : ("Pavel Alekseev")}></img>
         <div className='contacts__info-box'>
           <h4 className="contacts__header_4">{!selectedLanguage ? ("Любым удобным вам способом:") : ("In any way convenient to you:")}</h4>
           <div className='contacts__link-box'>
