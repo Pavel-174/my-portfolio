@@ -21,7 +21,6 @@
 
 /* Блок About */
 @import url(./blocks/about/about.css);
-@import url(./blocks/about/__headers/about__headers.css);
 @import url(./blocks/about/__header/_2/about__header_2.css);
 @import url(./blocks/about/__header/_3/about__header_3.css);
 @import url(./blocks/about/__header/_4/about__header_4.css);
@@ -37,7 +36,6 @@
 
 /* Блок Experience */
 @import url(./blocks/experience/experience.css);
-@import url(./blocks/experience/__headers/experience__headers.css);
 @import url(./blocks/experience/__header/_2/experience__header_2.css);
 @import url(./blocks/experience/__header/_3/experience__header_3.css);
 @import url(./blocks/experience/__header/_4/experience__header_4.css);
@@ -50,7 +48,6 @@
 
 /* Блок Skills */
 @import url(./blocks/skills/skills.css);
-@import url(./blocks/skills/__headers/skills__headers.css);
 @import url(./blocks/skills/__header/_2/skills__header_2.css);
 @import url(./blocks/skills/__header/_3/skills__header_3.css);
 @import url(./blocks/skills/__box/skills__box.css);
@@ -60,7 +57,6 @@
 
 /* Блок Portfolio */
 @import url(./blocks/portfolio/portfolio.css);
-@import url(./blocks/portfolio/__headers/portfolio__headers.css);
 @import url(./blocks/portfolio/__header/_2/portfolio__header_2.css);
 @import url(./blocks/portfolio/__header/_3/portfolio__header_3.css);
 @import url(./blocks/portfolio/__header/_5/portfolio__header_5.css);
@@ -77,7 +73,6 @@
 
 /* Блок Contacts */
 @import url(./blocks/contacts/contacts.css);
-@import url(./blocks/contacts/__headers/contacts__headers.css);
 @import url(./blocks/contacts/__header/_2/contacts__header_2.css);
 @import url(./blocks/contacts/__header/_3/contacts__header_3.css);
 @import url(./blocks/contacts/__header/_4/contacts__header_4.css);

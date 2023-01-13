@@ -1,13 +1,8 @@
 .skills__header_2 {
   margin: 0;
-  padding: 0;
-  font-size: 25px;
+  padding: 0 0 10px 0;
+  font-size: 30px;
   margin-top: 10px;
   font-family: Play, Arial, Helvetica, sans-serif;
-}
-
-@media screen and (min-width: 320px) and (max-width: 650px){
-  .skills__header_2 {
-    text-align: center;
-  }
+  text-align: left;
 }

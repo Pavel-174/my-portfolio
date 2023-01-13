@@ -10,7 +10,7 @@ const Footer = ({items, items_eng, selectedLanguage}) => {
                         <li className="footer__list-item" key={item.id}>
                           <Link className="footer__list-link"
                           smooth={true}
-                          offset={-30}
+                          offset={0}
                           duration={800}
                           to={item.href}
                           >

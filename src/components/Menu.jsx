@@ -13,7 +13,7 @@ const Menu = ({header, items, items_eng, active, setActive, selectedLanguage}) =
                         <li className="menu__list-item" key={item.id}>
                           <Link className="menu__list-link"
                           smooth={true}
-                          offset={-30}
+                          offset={0}
                           duration={800}
                           to={item.href}
                           onClick={() => setActive(false)}

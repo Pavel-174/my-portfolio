@@ -11,7 +11,7 @@ function AboutContentEng() {
         I am fascinated by the development process and the opportunity to create convenient and useful products. Look at my works in the&nbsp;
         <Link 
           smooth={true} 
-          offset={-30} 
+          offset={0} 
           duration={800} 
           to='portfolio'
           className="about__link"
@@ -26,7 +26,7 @@ function AboutContentEng() {
         If you have a vacancy that matches my skills and experience, do not hesitate to&nbsp;
           <Link 
             smooth={true} 
-            offset={-30} 
+            offset={0} 
             duration={800} 
             to='contacts'
             className="about__link"

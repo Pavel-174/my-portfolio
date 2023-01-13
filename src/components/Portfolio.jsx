@@ -25,8 +25,8 @@ function Portfolio({projects, onCardClick, selectedLanguage, id}) {
     return (
       <div className='portfolio'>
         <div className="portfolio__headers">
-            <h3 className="portfolio__header_3">{!selectedLanguage ? ("Портфолио") : ("Portfolio")}</h3>
-            <h2 className="portfolio__header_2">{!selectedLanguage ? ("Мои работы") : ("My projects")}</h2>
+            <h2 className="portfolio__header_2">{!selectedLanguage ? ("Портфолио") : ("Portfolio")}</h2>
+            <h3 className="portfolio__header_3">{!selectedLanguage ? ("Мои работы") : ("My projects")}</h3>
         </div>
         <ul className="portfolio__items">
             {activeItems.map(project =>

@@ -13,7 +13,7 @@ function AboutContent() {
         Посмотрите мои работы в разделе&nbsp;
         <Link 
           smooth={true} 
-          offset={-30} 
+          offset={0} 
           duration={800} 
           to='portfolio'
           className="about__link"
@@ -29,7 +29,7 @@ function AboutContent() {
           Если у вас есть вакансия, которая соответствует моим навыкам и опыту, не стесняйтесь&nbsp;
           <Link 
             smooth={true} 
-            offset={-30} 
+            offset={0} 
             duration={800} 
             to='contacts'
             className="about__link"

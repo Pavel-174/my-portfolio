@@ -5,8 +5,8 @@ function Experience({educations, educations_eng, works, works_eng, selectedLangu
     return (
       <div className='experience'>
         <div className="experience__headers">
-          <h3 className="experience__header_3">{!selectedLanguage ? ("Опыт") : ("Experience")}</h3>
-          <h2 className="experience__header_2">{!selectedLanguage ? ("Где я работал и учился") : ("Work and courses")}</h2>
+          <h2 className="experience__header_2">{!selectedLanguage ? ("Опыт") : ("Experience")}</h2>
+          <h3 className="experience__header_3">{!selectedLanguage ? ("Где я работал и учился") : ("Work and courses")}</h3>
         </div>
         <div className="experience__content">
           <ul className="experience__education">

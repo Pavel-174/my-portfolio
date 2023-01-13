@@ -9,8 +9,8 @@ const Contacts = ({onSendForm, selectedLanguage}) => {
   return (
     <div className='contacts'>
       <div className="contacts__headers">
-        <h3 className="contacts__header_3">{!selectedLanguage ? ("Контакты") : ("Contacts")}</h3>
-        <h2 className="contacts__header_2">{!selectedLanguage ? ("Свяжитесь со мной") : ("Contact me")}</h2>
+        <h2 className="contacts__header_2">{!selectedLanguage ? ("Контакты") : ("Contacts")}</h2>
+        <h3 className="contacts__header_3">{!selectedLanguage ? ("Свяжитесь со мной") : ("Contact me")}</h3>
       </div>
       <div className='contacts__content'>
         <img className='contacts__photo' src={photo} alt="на фото Павел Алексеев"></img>

@@ -1,30 +1,7 @@
 .contacts__header_3 {
-  margin: 0;
-  padding-left: 50px;
+  margin: 0 0 50px 0;
   font-size: 20px;
   font-family: Play, Arial, Helvetica, sans-serif;
-  position: relative;
-}
-
-.contacts__header_3:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -10%;
-  left: 0;
-  width: 36px;
-  height: 36px;
-  border-radius: 100%;
-  background-image: linear-gradient(135deg, wheat 0,#fecd00 100%);
-}
-
-@media screen and (min-width: 320px) and (max-width: 900px){
-  .contacts__header_3 {
-    text-align: center;
-    padding-left: 0;
-  }
-  
-  .contacts__header_3::before {
-    left: -46%;
-  }
+  text-align: left;
+  border-bottom: solid 2px #fecd00; 
 }

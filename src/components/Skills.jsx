@@ -5,8 +5,8 @@ function Skills({skills, skills_eng, selectedLanguage}) {
     return (
       <div className='skills'>
         <div className="skills__headers">
-          <h3 className="skills__header_3">{!selectedLanguage ? ("Мои навыки") : ("Skills")}</h3>
-          <h2 className="skills__header_2">{!selectedLanguage ? ("Что я использую в работе") : ("Working tools")}</h2>
+          <h2 className="skills__header_2">{!selectedLanguage ? ("Мои навыки") : ("Skills")}</h2>
+          <h3 className="skills__header_3">{!selectedLanguage ? ("Что я использую в работе") : ("Working tools")}</h3>
         </div>
         <div className="skills__box">
           {(!selectedLanguage ? (skills) : (skills_eng)).map(skill =>
