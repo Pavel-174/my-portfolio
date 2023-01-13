@@ -1,56 +1,24 @@
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
-import photo from '../images/my-photo2.jpg'
+import AboutContent from "./AboutContent";
+import AboutContentEng from "./AboutContentEng";
+import photo from '../images/my-photo2.jpg';
 
-function About({about, abilitys}) {
+function About({abilitys, abilitys_eng, selectedLanguage}) {
     return (
       <div className='about'>
         <div className="about__headers">
-            <h3 className="about__header_3">{about.title}</h3>
-            <h2 className="about__header_2">{about.subtitle}</h2>
+            <h3 className="about__header_3">{!selectedLanguage ? ("Про меня") : ("About me")}</h3>
+            <h2 className="about__header_2">{!selectedLanguage ? ("Меня зовут Павел Алексеев") : ("My name is Pavel Alekseev")}</h2>
         </div>
         <div className="about__content-box">
           <div className="about__content">
-            <img className="about__image" src={photo} alt="на фото Павел Алексеев"></img>
+            <img className="about__image" src={photo} alt={!selectedLanguage ? ("на фото Павел Алексеев") : ("Pavel Alekseev")}></img>
             <div className="about__texts">
-              <p className="about__paragraph">
-                Я вэб-разработчик. 
-                Мне нравится решать сложные задачи: разрабатывать сайты и веб-приложения.
-              </p>
-              <p className="about__paragraph">
-                Меня захватывает процесс разработки и возможность создавать удобные и полезные продукты. 
-                Посмотрите мои работы в разделе&nbsp;
-                <Link 
-                  smooth={true} 
-                  offset={-30} 
-                  duration={800} 
-                  to='portfolio'
-                  className="about__link"
-                >
-                  Портфолио
-                </Link>.
-              </p>
-              <p className="about__paragraph">
-                Я открыт к предложениям на позицию фронтэнд-разработчика, 
-                где могу внести свой вклад и развиваться вместе с компанией.
-              </p>
-              <p className="about__paragraph">
-                Если у вас есть вакансия, которая соответствует моим навыкам и опыту, не стесняйтесь&nbsp;
-                <Link 
-                  smooth={true} 
-                  offset={-30} 
-                  duration={800} 
-                  to='contacts'
-                  className="about__link"
-                >
-                  связаться со мной
-                </Link>,
-                буду рад сотрудничеству.
-              </p>
+              {!selectedLanguage ? (<AboutContent/>) : (<AboutContentEng/>)}
               <div className="about__list-box">
-                <h4 className="about__header_4">{about.header}</h4>
+                <h4 className="about__header_4">{!selectedLanguage ? ("Умею") : ("I can")}</h4>
                 <ul className="about__list">
-                  {abilitys.map(ability =>
+                  {(!selectedLanguage ? (abilitys) : (abilitys_eng)).map(ability =>
                     <li className="about__list-items" key={ability.id}>{ability.text}</li>
                   )}
                 </ul>

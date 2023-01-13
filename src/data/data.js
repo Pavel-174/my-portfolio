@@ -26,20 +26,8 @@ export const items = [
     {id: '5', value:'Портфолио', href:'portfolio'},
     {id: '6', value:'Контакты', href:'contacts'}
   ]
-// данные для раздела Promo
-export const promo =
-{
-  title: "Павел Алексеев",
-  subtitle: "Front-end developer"
-}
 
 // данные для раздела About
-export const about = {
-  title: "Про меня",
-  subtitle: "Меня зовут Павел Алексеев",
-  header: 'Умею:'
-}
-
 export const abilitys = [
     {
       id: '1',

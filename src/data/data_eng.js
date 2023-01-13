@@ -26,47 +26,28 @@ export const items_eng = [
     {id: '5', value:'Portfolio', href:'portfolio'},
     {id: '6', value:'Contacts', href:'contacts'}
   ]
-// данные для раздела Promo
-export const promo_eng =
-{
-  title: "Pavel Alekseev",
-  subtitle: "Front-end developer"
-}
 
 // данные для раздела About
-export const about_eng = {
-  title: "Про меня",
-  subtitle: "Меня зовут Павел Алексеев",
-  header: 'Умею:'
-}
-
 export const abilitys_eng = [
     {
       id: '1',
-      text: 'Писать код на HTML, CSS и JavaScript в парадигме ООП;'
+      text: 'Write code in HTML, CSS and JavaScript in the OOP paradigm'
     },
     {
       id: '2',
-      text: 'Создавать адаптивные интерфейсы для разных устройств;'
+      text: 'Create adaptive interfaces for different devices;'
     },
     {
       id: '3',
-      text: 'Разрабатывать сайты и веб-приложения на React;'
+      text: 'Develop websites and web applications with React;'
     },
     {
       id: '4',
-      text: 'Писать простой back-end на Node.js;'
+      text: 'Write a simple back-end with Node.js;'
     },
   ]
 
 // данные для раздела Experience колонки Образование
-export const experience_eng ={
-  title: "Опыт", 
-  subtitle: "Чем я буду полезен",
-  education: "Образование:",
-  work: "Работа и соревнования:"
-}
-
 export const educations_eng = [
     { 
       id: '3',
@@ -85,8 +66,7 @@ export const educations_eng = [
     },
   ]
 
-  // данные для раздела Experience колонки Работа и соревнования
-
+// данные для раздела Experience колонки Работа и соревнования
 export const works_eng = [
     {
       id: '1',
@@ -95,8 +75,7 @@ export const works_eng = [
     }
   ]
   
-  //данные для раздела Skills
-
+//данные для раздела Skills
 export const skills_eng = [
     {
       id: '1',
@@ -148,8 +127,7 @@ export const skills_eng = [
     },
   ]
 
-  //данные для раздела Projects
-
+//данные для раздела Projects
 export const projects_eng = [
     {
       id: '1', 

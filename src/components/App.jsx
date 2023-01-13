@@ -12,7 +12,6 @@ import Contacts from './Contacts';
 import PopupContacts from './PopupContacts';
 import Footer from './Footer';
 // импорты массивов с данными
-import { promo } from '../data/data';
 import { about } from '../data/data';
 import { abilitys } from '../data/data';
 import { experience } from '../data/data';
@@ -22,7 +21,6 @@ import { skills } from '../data/data';
 import { projects } from '../data/data';
 import { items } from '../data/data';
 // импорты массивов с данными Eng
-import { promo_eng } from '../data/data_eng';
 import { about_eng } from '../data/data_eng';
 import { abilitys_eng } from '../data/data_eng';
 import { experience_eng } from '../data/data_eng';
@@ -85,8 +83,8 @@ function App() {
       <BrowserRouter>
       <NavBar switchMenu={switchMenu} selectedLanguage={selectedLanguage} showEng={showEng}/>
       <main>
-        <Promo id="promo" promo={promo} promo_eng={promo_eng} selectedLanguage={selectedLanguage}/>
-        <About id='about' abilitys={abilitys} about={about}/>
+        <Promo id="promo" selectedLanguage={selectedLanguage}/>
+        <About id='about' abilitys={abilitys} abilitys_eng={abilitys_eng} selectedLanguage={selectedLanguage}/>
         <Experience id='experience' experience={experience} educations={educations} works={works}/>
         <Skills id='skills' skills={skills} title="Мои навыки" subtitle="Что я использую в работе"/>
         <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick} title="Портфолио" subtitle="Мои работы"/>
