@@ -86,19 +86,21 @@ function App() {
         <Promo id="promo" selectedLanguage={selectedLanguage}/>
         <About id='about' abilitys={abilitys} abilitys_eng={abilitys_eng} selectedLanguage={selectedLanguage}/>
         <Experience id='experience' educations={educations} educations_eng={educations_eng} works={works} works_eng={works_eng} selectedLanguage={selectedLanguage}/>
-        <Skills id='skills' skills={skills} title="Мои навыки" subtitle="Что я использую в работе"/>
-        <Portfolio id='portfolio' projects={projects} onCardClick={handleCardClick} title="Портфолио" subtitle="Мои работы"/>
-        <Contacts id='contacts' onSendForm={handlePopupContactsClick} title="Контакты" subtitle="Свяжитесь со мной"/>
+        <Skills id='skills' skills={skills} skills_eng={skills_eng} selectedLanguage={selectedLanguage}/>
+        <Portfolio id='portfolio' projects={projects} projects_eng={projects_eng} onCardClick={handleCardClick} selectedLanguage={selectedLanguage}/>
+        <Contacts id='contacts' onSendForm={handlePopupContactsClick} selectedLanguage={selectedLanguage}/>
       </main>
       <Footer items={items} items_eng={items_eng} selectedLanguage={selectedLanguage}/>
       <Menu active={menuActive} setActive={setMenuActive} items={items} items_eng={items_eng} selectedLanguage={selectedLanguage}/>
       <ImagePopup 
         project={selectedCard}
         onClose={closeAll}
+        selectedLanguage={selectedLanguage}
        />
       <PopupContacts 
       onClose={closeAll}
       isOpen={isPopupContactsOpened}
+      selectedLanguage={selectedLanguage}
       />
       </BrowserRouter>
     </div>

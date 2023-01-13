@@ -81,49 +81,49 @@ export const skills_eng = [
       id: '1',
       image: html5,
       alt:"логотип html5",
-      text: 'Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта'
+      text: 'HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.'
     },
     {
       id: '2',
       image: css3,
       alt:"логотип css3",
-      text: 'Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!'
+      text: 'CSS is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.'
     },
     {
       id: '3',
       image: js,
       alt:"логотип JavaScript",
-      text: 'Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое'
+      text: 'JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users devices.'
     },
     {
       id: '4',
       image: react,
       alt:"логотип React",
-      text: 'Эотот фрэймворк позволяет создавать web-приложения. Он помогает создать максимально интерактивный продукт именно под ваши цели'
+      text: 'React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. '
     },
     {
       id: '5',
       image: redux,
       alt:"логотип Redux",
-      text: 'Эта библиотека предназначенна для управления состоянием приложения. Содержит ряд инструментов, позволяющих значительно упростить передачу данных хранилища через контекст'
+      text: 'Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.'
     },
     {
       id: '6',
       image: node,
       alt:"логотип Node.js",
-      text: 'Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит'
+      text: 'Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.'
     },
     {
       id: '7',
       image: express,
       alt:"логотип Express",
-      text: 'Этот фрэймворк помогает ускорить разработку бэкэнда вашего продукта.'
+      text: 'Express, is a back end web application framework for building RESTful APIs with Node.js. It is designed for building web applications and APIs.'
     },
     {
       id: '8',
       image: mongo,
       alt:"логотип Mongo.db",
-      text: 'Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения'
+      text: 'MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. '
     },
   ]
 
@@ -132,7 +132,7 @@ export const projects_eng = [
     {
       id: '1', 
       src: portfolio,
-      title: 'Portfolio', text: 'Проект-портфолио.',
+      title: 'Portfolio', text: 'Project-portfolio.',
       site: 'https://pavel-174.github.io/my-portfolio/',
       git: 'https://github.com/Pavel-174/my-portfolio'
     },
@@ -142,7 +142,7 @@ export const projects_eng = [
       site: 'https://pavel-174.github.io/react-mesto-auth/',
       git: 'https://github.com/Pavel-174/react-mesto-auth',
       title: 'Mesto Auth',
-      text: 'Учебный проект Mesto на реакте с регистрацией и авторизацией'
+      text: 'Mesto training project with registration and authorization. Written with React.js'
     },
     {
       id: '3',
@@ -150,7 +150,7 @@ export const projects_eng = [
       site: 'https://pavel-174.github.io/landing-yandex-praktikum/',
       git: 'https://github.com/Pavel-174/landing-yandex-praktikum',
       title: 'Landing for Yandex.practicum',
-      text: 'Конкурсный проект для хакатона Яндекс.Практикума.'
+      text: 'Competitive project for the Yandex.Praktikum hackathon'
     },
     {
       id: '4',
@@ -158,7 +158,7 @@ export const projects_eng = [
       site: 'https://pavel-174.github.io/mesto-react/',
       git: 'https://github.com/Pavel-174/mesto-react',
       title: 'Mesto React',
-      text: 'Учебный проект Mesto на реакте'
+      text: 'Mesto training project with React.js'
     },
     {
       id: '5',
@@ -166,7 +166,7 @@ export const projects_eng = [
       site: 'https://pavel-174.github.io/russian-travel/',
       git: 'https://github.com/Pavel-174/russian-travel',
       title: 'Russian travel',
-      text: 'Проект о путишествия по России.'
+      text: 'Project about traveling in Russia.'
     },
     {
       id: '6',
@@ -174,7 +174,7 @@ export const projects_eng = [
       site: 'https://pavel-174.github.io/how-to-learn/',
       git: 'https://github.com/Pavel-174/how-to-learn',
       title: 'How to learn',
-      text: 'Проект о том как научиться учиться.'
+      text: 'Project is about how to learn.'
     },
     {
       id: '7',
@@ -182,7 +182,7 @@ export const projects_eng = [
       site: 'https://pavel-174.github.io/norman-borlaug/',
       git: 'https://github.com/Pavel-174/norman-borlaug',
       title: 'Dr. Norman Borlaug',
-      text: 'Самая первая верстка с Free Code Camp'
+      text: 'First "Free Code Camp" project'
     },
     {
       id: '8',
@@ -190,6 +190,6 @@ export const projects_eng = [
       site: 'https://pavel-174.github.io/mesto/',
       git: 'https://github.com/Pavel-174/mesto',
       title: 'Mesto',
-      text: 'Учебный проект Mesto'
+      text: 'Mesto training project with JS.'
     },
   ]

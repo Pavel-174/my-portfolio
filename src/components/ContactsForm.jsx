@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef} from "react";
 import emailjs from '@emailjs/browser';
 
 
-function ContactsForm ({setIsSend}){
+function ContactsForm ({setIsSend, selectedLanguage}){
   const [isNameInputValid, setNameInputValid] = useState(false);
   const [isAboutInputValid, setAboutInputValid] = useState(false);
   const [isTextareaValid, setTextareaValid] = useState(false);
@@ -84,7 +84,7 @@ function ContactsForm ({setIsSend}){
             required 
             className={`popup__text ${!isNameInputValid ? 'popup__text_type_error' : 'popup__text_type_ok'}`}
             type="text" 
-            placeholder="Имя" 
+            placeholder={!selectedLanguage ? ("Имя") : ("Name")}
             name="user_name"
             minLength="2" 
             maxLength="40" 
@@ -108,7 +108,7 @@ function ContactsForm ({setIsSend}){
             className={`popup__text popup__textarea ${!isTextareaValid ? 'popup__text_type_error' : 'popup__text_type_ok'}`}
             name="message"
             type="text"
-            placeholder="Текст сообщения"
+            placeholder={!selectedLanguage ? ("Текст сообщения") : ("Message text")}
             minLength="5" 
             maxLength="10000"
             required
@@ -120,7 +120,7 @@ function ContactsForm ({setIsSend}){
             disabled={!buttonSubmitState ? true :''} 
             type="submit"
           >
-            Отправить
+            {!selectedLanguage ? ("Отправить") : ("Send")}
           </button>
         </form>
     )    
