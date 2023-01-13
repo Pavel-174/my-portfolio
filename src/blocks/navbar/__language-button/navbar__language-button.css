@@ -7,6 +7,6 @@
 }
 
 .navbar__language-button:hover {
-  opacity: 0.4;
+  opacity: 0.3;
   transition: 0.8s;
 }
