@@ -39,11 +39,21 @@ function App() {
   const [selectedCard, setSelectedCard] = useState(null);
 
   const [isPopupContactsOpened, setIsPopupContactsOpened] = useState(false)
+  
+  //выбор языка и сохранение состояния языка
+  useEffect(() => {
+    setSelectedLanguage(JSON.parse(window.localStorage.getItem('selectedLanguage')));
+  }, []);
+
+  useEffect(() => {
+    window.localStorage.setItem('selectedLanguage', selectedLanguage);
+  }, [selectedLanguage]);
 
   function showEng() {
-    setSelectedLanguage(!selectedLanguage);
+    return setSelectedLanguage(!selectedLanguage);
   }
-
+  
+  // открытие\закрытие меню и попапов
   function closeAll() {
     setMenuActive(false);
     setSelectedCard(null);
