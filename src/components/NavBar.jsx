@@ -1,5 +1,5 @@
 import React from "react";
-import ru from '../images/Flag_of_Russia.svg.webp';
+import ru from '../images/Flag_of_Russia.png';
 import eng from '../images/United_Kingdom.png';
 
 function NavBar({switchMenu, showEng, selectedLanguage}) {
