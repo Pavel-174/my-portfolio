@@ -3,6 +3,7 @@
   width: 100vw;
   height: 100vh;
   top: 50px;
+  max-width: 1440px;
   /* left: 0; */
   transform: translateX(-130%);
   transition: all 0.4s;
