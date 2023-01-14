@@ -54,7 +54,7 @@ function Portfolio({projects, onCardClick, selectedLanguage, id}) {
              duration={400}
              to={id}
              >
-              <button className="portfolio__button" onClick={showLess}>{!selectedLanguage ? ("Показать меньше проектов") : ("Show less projects")}</button>
+              <button className={fade ? `portfolio__button portfolio__button_fade-in` : `portfolio__button portfolio__button_fade`} onClick={showLess}>{!selectedLanguage ? ("Показать меньше проектов") : ("Show less projects")}</button>
             </Link>
           ) : ("")}
         </div>

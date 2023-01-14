@@ -1,0 +1,12 @@
+.portfolio__button_fade {
+  animation: fade 1s ease forwards;
+}
+  
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
