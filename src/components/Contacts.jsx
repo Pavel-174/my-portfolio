@@ -23,7 +23,8 @@ const Contacts = ({onSendForm, selectedLanguage}) => {
           </div>
           <button className='contacts__button' onClick={onSendForm}>{!selectedLanguage ? ("Форма обратной связи") : ("Contact form")}</button>
         </div>
-        <iframe className='contacts__frame' src="https://yandex.ru/map-widget/v1/?um=constructor%3A7eab4a1b44118a193c4a8ac721bdcde91571a5bd4c4336b1d5af0b7e57475015&amp;source=constructor" width="320" height="320" frameBorder="0"></iframe>
+        {/* <iframe className='contacts__frame' src="https://yandex.ru/map-widget/v1/?um=constructor%3A7eab4a1b44118a193c4a8ac721bdcde91571a5bd4c4336b1d5af0b7e57475015&amp;source=constructor" width="320" height="320" frameBorder="0"></iframe> */}
+        <iframe className='contacts__frame' src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d72952.51428368183!2d61.4344687!3d55.1523722!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sru!4v1673715068409!5m2!1sen!2sru" width="320" height="320" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   );
