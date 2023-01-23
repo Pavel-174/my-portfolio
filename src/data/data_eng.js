@@ -16,6 +16,7 @@ import landing from '../images/landing-praktik.png';
 import travel from '../images/russian-travel.png';
 import learn from '../images/how-to-learn.png';
 import norman from '../images/dr-norman.png';
+import todo from '../images/to-do-list.png';
  
 // данные для бургер-меню
 export const items_eng = [
@@ -136,14 +137,21 @@ export const skills_eng = [
 //данные для раздела Projects
 export const projects_eng = [
     {
-      id: '1', 
+      id: '9', 
+      src: todo,
+      title: 'To-do-list', text: 'First TypeScript project.',
+      site: 'https://pavel-174.github.io/to-do-list/',
+      git: 'https://github.com/Pavel-174/to-do-list'
+    },
+    {
+      id: '8', 
       src: portfolio,
       title: 'Portfolio', text: 'Project-portfolio.',
       site: 'https://pavel-174.github.io/my-portfolio/',
       git: 'https://github.com/Pavel-174/my-portfolio'
     },
     {
-      id: '2',
+      id: '7',
       src: mesto_auth,
       site: 'https://pavel-174.github.io/react-mesto-auth/',
       git: 'https://github.com/Pavel-174/react-mesto-auth',
@@ -151,7 +159,7 @@ export const projects_eng = [
       text: 'Mesto training project with registration and authorization. Written with React.js'
     },
     {
-      id: '3',
+      id: '6',
       src: landing,
       site: 'https://pavel-174.github.io/landing-yandex-praktikum/',
       git: 'https://github.com/Pavel-174/landing-yandex-praktikum',
@@ -159,7 +167,7 @@ export const projects_eng = [
       text: 'Competitive project for the Yandex.Praktikum hackathon'
     },
     {
-      id: '4',
+      id: '5',
       src: mesto,
       site: 'https://pavel-174.github.io/mesto-react/',
       git: 'https://github.com/Pavel-174/mesto-react',
@@ -167,7 +175,7 @@ export const projects_eng = [
       text: 'Mesto training project with React.js'
     },
     {
-      id: '5',
+      id: '4',
       src: travel,
       site: 'https://pavel-174.github.io/russian-travel/',
       git: 'https://github.com/Pavel-174/russian-travel',
@@ -175,7 +183,7 @@ export const projects_eng = [
       text: 'Project about traveling in Russia.'
     },
     {
-      id: '6',
+      id: '3',
       src: learn,
       site: 'https://pavel-174.github.io/how-to-learn/',
       git: 'https://github.com/Pavel-174/how-to-learn',
@@ -183,7 +191,7 @@ export const projects_eng = [
       text: 'Project is about how to learn.'
     },
     {
-      id: '7',
+      id: '2',
       src: norman,
       site: 'https://pavel-174.github.io/norman-borlaug/',
       git: 'https://github.com/Pavel-174/norman-borlaug',
@@ -191,7 +199,7 @@ export const projects_eng = [
       text: 'First "Free Code Camp" project'
     },
     {
-      id: '8',
+      id: '1',
       src: mesto,
       site: 'https://pavel-174.github.io/mesto/',
       git: 'https://github.com/Pavel-174/mesto',
