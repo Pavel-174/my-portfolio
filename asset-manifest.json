@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.310dd2dd.css",
-    "main.js": "/static/js/main.19f56371.js",
+    "main.js": "/static/js/main.87868241.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/dr-norman.png": "/static/media/dr-norman.8487c529828f6198fde2.png",
     "static/media/mesto.png": "/static/media/mesto.1138cfc83e446eb86637.png",
@@ -16,6 +16,7 @@
     "static/media/Github2.png": "/static/media/Github2.e71f49bdd1436ddb2498.png",
     "static/media/Play-Regular.woff2": "/static/media/Play-Regular.2ce9f1c53d89a116a0af.woff2",
     "static/media/my-portfolio.png": "/static/media/my-portfolio.a6d99208622e7b7b6a5b.png",
+    "static/media/to-do-list.png": "/static/media/to-do-list.74d4f3d83a5619ebe46f.png",
     "static/media/github.png": "/static/media/github.793d9edc01519a52a010.png",
     "static/media/LinkedIn.png": "/static/media/LinkedIn.db016094728c130647d2.png",
     "static/media/Mongo.db.svg": "/static/media/Mongo.db.38f78a09ea9b00acab0e5cce3d7a7120.svg",
@@ -30,11 +31,11 @@
     "static/media/Flag_of_Russia.svg.webp": "/static/media/Flag_of_Russia.svg.c54cece37e35e8659434.webp",
     "static/media/CloseIcon.svg": "/static/media/CloseIcon.039f1f5203f653b4bacd.svg",
     "main.310dd2dd.css.map": "/static/css/main.310dd2dd.css.map",
-    "main.19f56371.js.map": "/static/js/main.19f56371.js.map",
+    "main.87868241.js.map": "/static/js/main.87868241.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.310dd2dd.css",
-    "static/js/main.19f56371.js"
+    "static/js/main.87868241.js"
   ]
 }
