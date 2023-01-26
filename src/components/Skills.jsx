@@ -1,4 +1,5 @@
 import React from "react";
+import AliceCarousel from 'react-alice-carousel';
 
 function Skills({skills, skills_eng, selectedLanguage}) {
 
@@ -9,12 +10,16 @@ function Skills({skills, skills_eng, selectedLanguage}) {
           <h3 className="skills__header_3">{!selectedLanguage ? ("Что я использую в работе") : ("Working tools")}</h3>
         </div>
         <div className="skills__box">
-          {(!selectedLanguage ? (skills) : (skills_eng)).map(skill =>
-            <div className="skills__content" key={skill.id}>
-              <img className="skills__content-image" src={skill.image} alt={skill.alt}></img>
-              <p className="skills__content-text">{skill.text}</p>
-            </div>
-          )}
+          <AliceCarousel  
+            mouseTracking 
+            items={!selectedLanguage ? (skills) : (skills_eng)} 
+            autoWidth={true} 
+            animationType='fadeout' 
+            animationDuration='500' 
+            infinite={true} 
+            keyboardNavigation={true} 
+            itemsFit="contain"
+          />
         </div>
       </div>   
     );

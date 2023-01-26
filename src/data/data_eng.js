@@ -7,6 +7,7 @@ import redux from  '../images/redux.png';
 import node from  '../images/Node.js.svg';
 import express from  '../images/Expressjs.png';
 import mongo from  '../images/Mongo.db.svg';
+import typescript from '../images/Typescript.svg'
 
 // фото для раздела Projects
 import mesto from '../images/mesto.png';
@@ -83,56 +84,52 @@ export const works_eng = [
   ]
   
 //данные для раздела Skills
-export const skills_eng = [
-    {
-      id: '1',
-      image: html5,
-      alt:"logo html5",
-      text: 'HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.'
-    },
-    {
-      id: '2',
-      image: css3,
-      alt:"logo css3",
-      text: 'CSS is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.'
-    },
-    {
-      id: '3',
-      image: js,
-      alt:"logo JavaScript",
-      text: 'JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users devices.'
-    },
-    {
-      id: '4',
-      image: react,
-      alt:"logo React",
-      text: 'React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. '
-    },
-    {
-      id: '5',
-      image: redux,
-      alt:"logo Redux",
-      text: 'Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.'
-    },
-    {
-      id: '6',
-      image: node,
-      alt:"logo Node.js",
-      text: 'Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.'
-    },
-    {
-      id: '7',
-      image: express,
-      alt:"logo Express",
-      text: 'Express, is a back end web application framework for building RESTful APIs with Node.js. It is designed for building web applications and APIs.'
-    },
-    {
-      id: '8',
-      image: mongo,
-      alt:"logo Mongo.db",
-      text: 'MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. '
-    },
-  ]
+export const skills_eng = [    
+  <div className="skills__content" key={1}>
+    <img className="skills__content-image" src={html5} alt="logo html5"></img>
+    <p className="skills__content-text">HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+  </div>,
+  
+  <div className="skills__content" key={2}>
+    <img className="skills__content-image" src={css3} alt="logo css3"></img>
+    <p className="skills__content-text">CSS is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+  </div>,
+  
+  <div className="skills__content" key={3}>
+    <img className="skills__content-image" src={js} alt="logo JavaScript"></img>
+    <p className="skills__content-text">JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users devices.</p>
+  </div>,
+  
+  <div className="skills__content" key={4}>
+    <img className="skills__content-image" src={react} alt="logo React"></img>
+    <p className="skills__content-text">React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js.</p>
+  </div>,
+  
+  <div className="skills__content" key={5}>
+    <img className="skills__content-image" src={redux} alt="logo Redux"></img>
+    <p className="skills__content-text">Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.</p>
+  </div>,
+  
+  <div className="skills__content" key={6}>
+    <img className="skills__content-image" src={node} alt="логотип Node.js"></img>
+    <p className="skills__content-text">Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.</p>
+  </div>,
+  
+  <div className="skills__content" key={7}>
+    <img className="skills__content-image" src={express} alt="логотип Express"></img>
+    <p className="skills__content-text">Express, is a back end web application framework for building RESTful APIs with Node.js. It is designed for building web applications and APIs.</p>
+  </div>,
+  
+  <div className="skills__content" key={8}>
+    <img className="skills__content-image" src={mongo} alt="логотип Mongo.db"></img>
+    <p className="skills__content-text">MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.</p>
+  </div>,
+  
+  <div className="skills__content" key={9}>
+    <img className="skills__content-image" src={typescript} alt="логотип TypeScript"></img>
+    <p className="skills__content-text">TypeScript is a free and open source programming language. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript. As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.</p>
+  </div>,
+];
 
 //данные для раздела Projects
 export const projects_eng = [

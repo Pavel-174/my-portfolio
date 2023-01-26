@@ -7,6 +7,7 @@ import redux from  '../images/redux.png';
 import node from  '../images/Node.js.svg';
 import express from  '../images/Expressjs.png';
 import mongo from  '../images/Mongo.db.svg';
+import typescript from '../images/Typescript.svg'
 
 // фото для раздела Projects
 import mesto from '../images/mesto.png';
@@ -85,60 +86,56 @@ export const works = [
   
   //данные для раздела Skills
 
-export const skills = [
-    {
-      id: '1',
-      image: html5,
-      alt:"логотип html5",
-      text: 'Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта'
-    },
-    {
-      id: '2',
-      image: css3,
-      alt:"логотип css3",
-      text: 'Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!'
-    },
-    {
-      id: '3',
-      image: js,
-      alt:"логотип JavaScript",
-      text: 'Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое'
-    },
-    {
-      id: '4',
-      image: react,
-      alt:"логотип React",
-      text: 'Эотот фрэймворк позволяет создавать web-приложения. Он помогает создать максимально интерактивный продукт именно под ваши цели'
-    },
-    {
-      id: '5',
-      image: redux,
-      alt:"логотип Redux",
-      text: 'Эта библиотека предназначенна для управления состоянием приложения. Содержит ряд инструментов, позволяющих значительно упростить передачу данных хранилища через контекст'
-    },
-    {
-      id: '6',
-      image: node,
-      alt:"логотип Node.js",
-      text: 'Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит'
-    },
-    {
-      id: '7',
-      image: express,
-      alt:"логотип Express",
-      text: 'Этот фрэймворк помогает ускорить разработку бэкэнда вашего продукта.'
-    },
-    {
-      id: '8',
-      image: mongo,
-      alt:"логотип Mongo.db",
-      text: 'Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения'
-    },
-  ]
-
+  export const skills = [    
+    <div className="skills__content" key={1}>
+      <img className="skills__content-image" src={html5} alt="логотип html5"></img>
+      <p className="skills__content-text">Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта.</p>
+    </div>,
+    
+    <div className="skills__content" key={2}>
+      <img className="skills__content-image" src={css3} alt="логотип css3"></img>
+      <p className="skills__content-text">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!</p>
+    </div>,
+    
+    <div className="skills__content" key={3}>
+      <img className="skills__content-image" src={js} alt="логотип JavaScript"></img>
+      <p className="skills__content-text">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое.</p>
+    </div>,
+    
+    <div className="skills__content" key={4}>
+      <img className="skills__content-image" src={react} alt="логотип React"></img>
+      <p className="skills__content-text">Эотот фрэймворк позволяет создавать web-приложения. Он помогает создать максимально интерактивный продукт именно под ваши цели</p>
+    </div>,
+    
+    <div className="skills__content" key={5}>
+      <img className="skills__content-image" src={redux} alt="логотип Redux"></img>
+      <p className="skills__content-text">Эта библиотека предназначенна для управления состоянием приложения. Содержит ряд инструментов, позволяющих значительно упростить передачу данных хранилища через контекст</p>
+    </div>,
+    
+    <div className="skills__content" key={6}>
+      <img className="skills__content-image" src={node} alt="логотип Node.js"></img>
+      <p className="skills__content-text">Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит.</p>
+    </div>,
+    
+    <div className="skills__content" key={7}>
+      <img className="skills__content-image" src={express} alt="логотип Express"></img>
+      <p className="skills__content-text">Этот фрэймворк помогает ускорить разработку бэкэнда вашего продукта.</p>
+    </div>,
+    
+    <div className="skills__content" key={8}>
+      <img className="skills__content-image" src={mongo} alt="логотип Mongo.db"></img>
+      <p className="skills__content-text">Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
+    </div>,
+    
+    <div className="skills__content" key={9}>
+      <img className="skills__content-image" src={typescript} alt="логотип TypeScript"></img>
+      <p className="skills__content-text">Это язык програмирования расширяющий возможности JavaScript. Главная особенность языка - типизация данных. Благодаря ему можно избежать многих ошибок в коде.</p>
+    </div>,
+  ];
+    
   //данные для раздела Projects
 
-export const projects = [
+  export const projects = [
     {
       id: '9', 
       src: todo,

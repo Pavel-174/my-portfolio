@@ -1,5 +1,6 @@
 .skills__content-text {
   text-align: justify;
   font-family: Play, Arial, Helvetica, sans-serif;
+  width: 230px;
   margin: 20px;
 }
