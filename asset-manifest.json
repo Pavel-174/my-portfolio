@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.310dd2dd.css",
-    "main.js": "/static/js/main.87868241.js",
+    "main.css": "/static/css/main.9f6e795d.css",
+    "main.js": "/static/js/main.b6d6c6cc.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/dr-norman.png": "/static/media/dr-norman.8487c529828f6198fde2.png",
     "static/media/mesto.png": "/static/media/mesto.1138cfc83e446eb86637.png",
@@ -23,6 +23,7 @@
     "static/media/mesto-auth.png": "/static/media/mesto-auth.f6edb1e34bc5eb289f71.png",
     "static/media/Node.js.svg": "/static/media/Node.js.855c26ff7acf78807ecb9d2823cd7bca.svg",
     "static/media/React.svg": "/static/media/React.49880c79b4cf6fac6eeb1ff6f1aa1c95.svg",
+    "static/media/Typescript.svg": "/static/media/Typescript.ef080438c02767ce094c915c62b61f14.svg",
     "static/media/html5.svg": "/static/media/html5.359612fd63614a7ab28e8932982a7960.svg",
     "index.html": "/index.html",
     "static/media/css3.svg": "/static/media/css3.e429c28db4d35e3bb6341570f3b74265.svg",
@@ -30,12 +31,12 @@
     "static/media/globe.svg": "/static/media/globe.989d00a4d3a72ea55a03fa36de2606ba.svg",
     "static/media/Flag_of_Russia.svg.webp": "/static/media/Flag_of_Russia.svg.c54cece37e35e8659434.webp",
     "static/media/CloseIcon.svg": "/static/media/CloseIcon.039f1f5203f653b4bacd.svg",
-    "main.310dd2dd.css.map": "/static/css/main.310dd2dd.css.map",
-    "main.87868241.js.map": "/static/js/main.87868241.js.map",
+    "main.9f6e795d.css.map": "/static/css/main.9f6e795d.css.map",
+    "main.b6d6c6cc.js.map": "/static/js/main.b6d6c6cc.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.310dd2dd.css",
-    "static/js/main.87868241.js"
+    "static/css/main.9f6e795d.css",
+    "static/js/main.b6d6c6cc.js"
   ]
 }
