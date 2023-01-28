@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff178231.css",
+    "main.css": "/static/css/main.4d4f2653.css",
     "main.js": "/static/js/main.b6d6c6cc.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/dr-norman.png": "/static/media/dr-norman.8487c529828f6198fde2.png",
@@ -31,12 +31,12 @@
     "static/media/globe.svg": "/static/media/globe.989d00a4d3a72ea55a03fa36de2606ba.svg",
     "static/media/Flag_of_Russia.svg.webp": "/static/media/Flag_of_Russia.svg.c54cece37e35e8659434.webp",
     "static/media/CloseIcon.svg": "/static/media/CloseIcon.039f1f5203f653b4bacd.svg",
-    "main.ff178231.css.map": "/static/css/main.ff178231.css.map",
+    "main.4d4f2653.css.map": "/static/css/main.4d4f2653.css.map",
     "main.b6d6c6cc.js.map": "/static/js/main.b6d6c6cc.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff178231.css",
+    "static/css/main.4d4f2653.css",
     "static/js/main.b6d6c6cc.js"
   ]
 }
