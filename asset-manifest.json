@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.4d4f2653.css",
-    "main.js": "/static/js/main.b6d6c6cc.js",
+    "main.js": "/static/js/main.09b9d1ad.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/react-mesto-api-full.png": "/static/media/react-mesto-api-full.ed797ff48e54701673c4.png",
     "static/media/dr-norman.png": "/static/media/dr-norman.8487c529828f6198fde2.png",
     "static/media/mesto.png": "/static/media/mesto.1138cfc83e446eb86637.png",
     "static/media/russian-travel.png": "/static/media/russian-travel.f7a393a0c26a5bca3cd5.png",
@@ -10,6 +11,7 @@
     "static/media/Play-Regular.eot": "/static/media/Play-Regular.13a2e0c63741bb9c1515.eot",
     "static/media/Play-Regular.ttf": "/static/media/Play-Regular.28af89517fe92b5c192e.ttf",
     "static/media/landing-praktik.png": "/static/media/landing-praktik.ff62cb3f1a0878243cf9.png",
+    "static/media/chess.png": "/static/media/chess.39d74fb66b5347af0ffd.png",
     "static/media/Play-Regular.woff": "/static/media/Play-Regular.849790029382815c456d.woff",
     "static/media/my-photo2.jpg": "/static/media/my-photo2.b21b141de67dbd6b41f9.jpg",
     "static/media/my-photo.jpg": "/static/media/my-photo.73b1d11ec4157d7e378d.jpg",
@@ -32,11 +34,11 @@
     "static/media/Flag_of_Russia.svg.webp": "/static/media/Flag_of_Russia.svg.c54cece37e35e8659434.webp",
     "static/media/CloseIcon.svg": "/static/media/CloseIcon.039f1f5203f653b4bacd.svg",
     "main.4d4f2653.css.map": "/static/css/main.4d4f2653.css.map",
-    "main.b6d6c6cc.js.map": "/static/js/main.b6d6c6cc.js.map",
+    "main.09b9d1ad.js.map": "/static/js/main.09b9d1ad.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d4f2653.css",
-    "static/js/main.b6d6c6cc.js"
+    "static/js/main.09b9d1ad.js"
   ]
 }
