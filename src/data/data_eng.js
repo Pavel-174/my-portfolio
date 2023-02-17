@@ -18,6 +18,8 @@ import travel from '../images/russian-travel.png';
 import learn from '../images/how-to-learn.png';
 import norman from '../images/dr-norman.png';
 import todo from '../images/to-do-list.png';
+import chess from '../images/chess.png';
+import react_mesto_api_full from '../images/react-mesto-api-full.png';
  
 // данные для бургер-меню
 export const items_eng = [
@@ -133,6 +135,20 @@ export const skills_eng = [
 
 //данные для раздела Projects
 export const projects_eng = [
+  {
+    id: '10', 
+    src: react_mesto_api_full,
+    title: 'React-mesto-api-full', text: 'My first fuul-stack project.',
+    site: 'https://pavel-174.github.io/chess/',
+    git: 'https://github.com/Pavel-174/react-mesto-api-full'
+  },
+  {
+    id: '10', 
+    src: chess,
+    title: 'Chess', text: 'Second TypeScript project.',
+    site: 'https://pavel-174.github.io/chess/',
+    git: 'https://github.com/Pavel-174/chess'
+  },
     {
       id: '9', 
       src: todo,

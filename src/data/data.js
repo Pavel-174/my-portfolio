@@ -18,6 +18,8 @@ import travel from '../images/russian-travel.png';
 import learn from '../images/how-to-learn.png';
 import norman from '../images/dr-norman.png';
 import todo from '../images/to-do-list.png';
+import chess from '../images/chess.png';
+import react_mesto_api_full from '../images/react-mesto-api-full.png';
  
 // данные для бургер-меню
 export const items = [
@@ -136,6 +138,20 @@ export const works = [
   //данные для раздела Projects
 
   export const projects = [
+    {
+      id: '10', 
+      src: react_mesto_api_full,
+      title: 'React-mesto-api-full', text: 'Проект место с бэкэндом и фронтэндом.',
+      site: 'https://mesto-alekseev.nomoredomainsclub.ru/',
+      git: 'https://github.com/Pavel-174/react-mesto-api-full'
+    },
+    {
+      id: '10', 
+      src: chess,
+      title: 'Chess', text: 'Второй проект написанный на TypeScript.',
+      site: 'https://pavel-174.github.io/chess/',
+      git: 'https://github.com/Pavel-174/chess'
+    },
     {
       id: '9', 
       src: todo,
