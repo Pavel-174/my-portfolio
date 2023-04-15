@@ -7,7 +7,8 @@ import redux from  '../images/redux.png';
 import node from  '../images/Node.js.svg';
 import express from  '../images/Expressjs.png';
 import mongo from  '../images/Mongo.db.svg';
-import typescript from '../images/Typescript.svg'
+import typescript from '../images/Typescript.svg';
+import nest from '../images/nest.png';
 
 // фото для раздела Projects
 import mesto from '../images/mesto.png';
@@ -55,13 +56,18 @@ export const abilitys = [
 // данные для раздела Experience колонки Образование
 export const educations = [
     { 
+      id: '4',
+      title: 'Самостоятельное изучение TypeScript (2023)',
+      text: 'Самостоятельно изучал язык програмирования TypeScript и фреймворк Nest (бэкэнд). Для обучения использовал в основном документацию иобучающие ролики на YouTube.'
+    },
+    { 
       id: '3',
-      title: 'Курсы Яндекс.Практикум (2022-2023)',
+      title: 'Курсы Яндекс.Практикум (2022)',
       text: 'Специальность: Web-разработчик'
     },
     {
       id: '2',
-      title: 'Курс Free Code Camp (2022)',
+      title: 'Курс Free Code Camp (2021)',
       text: 'Responsive Web Design Certification. Начал изучать html и css и сделал первую проектную работу.'
     },
     { 
@@ -132,6 +138,11 @@ export const works = [
     <div className="skills__content" key={9}>
       <img className="skills__content-image" src={typescript} alt="логотип TypeScript"></img>
       <p className="skills__content-text">Это язык програмирования расширяющий возможности JavaScript. Главная особенность языка - типизация данных. Благодаря ему можно избежать многих ошибок в коде.</p>
+    </div>,
+
+    <div className="skills__content" key={10}>
+      <img className="skills__content-image" src={nest} alt="логотип NestJS"></img>
+      <p className="skills__content-text">Это платформа для создания эффективных масштабируемых программ Node.js на стороне сервера. Он использует JavaScript, создан и полностью поддерживает TypeScript и объединяет элементы ООП, ФП и ФРП.</p>
     </div>,
   ];
     

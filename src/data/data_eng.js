@@ -8,6 +8,7 @@ import node from  '../images/Node.js.svg';
 import express from  '../images/Expressjs.png';
 import mongo from  '../images/Mongo.db.svg';
 import typescript from '../images/Typescript.svg'
+import nest from '../images/nest.png';
 
 // фото для раздела Projects
 import mesto from '../images/mesto.png';
@@ -55,13 +56,18 @@ export const abilitys_eng = [
 // данные для раздела Experience колонки Образование
 export const educations_eng = [
     { 
+      id: '4',
+      title: 'TypeScript (self-education) (2023)',
+      text: 'Independently studied  TypeScript and the Nest framework (backend). For training, I mainly used documentation and training videos on YouTube.'
+    },
+    { 
       id: '3',
-      title: 'Educational course Yandex.Practicum (2022-2023)',
+      title: 'Educational course Yandex.Practicum (2022)',
       text: 'Profession: Web-developer'
     },
     {
       id: '2',
-      title: 'Educational course Free Code Camp (2022)',
+      title: 'Educational course Free Code Camp (2021)',
       text: 'Responsive Web Design Certification.'
     },
     { 
@@ -113,23 +119,28 @@ export const skills_eng = [
   </div>,
   
   <div className="skills__content" key={6}>
-    <img className="skills__content-image" src={node} alt="логотип Node.js"></img>
+    <img className="skills__content-image" src={node} alt="logo Node.js"></img>
     <p className="skills__content-text">Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.</p>
   </div>,
   
   <div className="skills__content" key={7}>
-    <img className="skills__content-image" src={express} alt="логотип Express"></img>
+    <img className="skills__content-image" src={express} alt="logo Express"></img>
     <p className="skills__content-text">Express, is a back end web application framework for building RESTful APIs with Node.js. It is designed for building web applications and APIs.</p>
   </div>,
   
   <div className="skills__content" key={8}>
-    <img className="skills__content-image" src={mongo} alt="логотип Mongo.db"></img>
+    <img className="skills__content-image" src={mongo} alt="logo Mongo.db"></img>
     <p className="skills__content-text">MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.</p>
   </div>,
   
   <div className="skills__content" key={9}>
-    <img className="skills__content-image" src={typescript} alt="логотип TypeScript"></img>
+    <img className="skills__content-image" src={typescript} alt="logo TypeScript"></img>
     <p className="skills__content-text">TypeScript is a free and open source programming language. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript. As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.</p>
+  </div>,
+
+  <div className="skills__content" key={10}>
+    <img className="skills__content-image" src={nest} alt="logo NestJS"></img>
+    <p className="skills__content-text">A progressive Node.js framework for building efficient, reliable and scalable server-side applications.</p>
   </div>,
 ];
 
