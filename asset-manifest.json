@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4d4f2653.css",
-    "main.js": "/static/js/main.09b9d1ad.js",
+    "main.js": "/static/js/main.99393e9b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/react-mesto-api-full.png": "/static/media/react-mesto-api-full.ed797ff48e54701673c4.png",
     "static/media/dr-norman.png": "/static/media/dr-norman.8487c529828f6198fde2.png",
@@ -34,11 +34,11 @@
     "static/media/Flag_of_Russia.svg.webp": "/static/media/Flag_of_Russia.svg.c54cece37e35e8659434.webp",
     "static/media/CloseIcon.svg": "/static/media/CloseIcon.039f1f5203f653b4bacd.svg",
     "main.4d4f2653.css.map": "/static/css/main.4d4f2653.css.map",
-    "main.09b9d1ad.js.map": "/static/js/main.09b9d1ad.js.map",
+    "main.99393e9b.js.map": "/static/js/main.99393e9b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d4f2653.css",
-    "static/js/main.09b9d1ad.js"
+    "static/js/main.99393e9b.js"
   ]
 }
